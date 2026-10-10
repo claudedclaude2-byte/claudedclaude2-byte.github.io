@@ -1,29 +1,21 @@
-# Records Intelligence public website
+# Records Intelligence — public website
 
-Static project presentation for GitHub Pages. The implementation repository and investigation records remain private.
+[Open the website](https://claudedclaude2-byte.github.io/) · [Roadmap](ROADMAP.md) · [Development progress](PROGRESS.md)
 
-## Public roadmap
+The modern project presentation includes the interactive fictional example, platform guide, six-stage roadmap and a named progress checklist. Completed work is ticked; current work and next milestones are shown separately. The implementation repository and investigation records remain private.
 
-[Read the project roadmap](ROADMAP.md): built capabilities, current pilot integration, first-use and partner evaluations, richer review tools, collaboration and deeper discovery. The matching website page is [roadmap.html](https://claudedclaude2-byte.github.io/roadmap.html).
+## Keep progress current
 
-## Pages
+The website reads `progress.json` on page load. Update its dated `done`, `working` and `next` groups when the corresponding work changes, and keep `PROGRESS.md` in agreement. Check the relevant completion or validation evidence before moving an item into Completed. Describe the specific completed task, rather than implying that the whole product is released.
 
-- `index.html`: overview, workflow, fictional illustration, current status and FAQ.
-- `platform.html`: complete capability, pilot, format and architecture guide.
-- `roadmap.html`: built capabilities, current work, next steps and longer-term ambitions.
-- `trust.html`: data principles, verification boundaries, human review and scope.
+Normal updates go through a pull request. GitHub Pages deploys `main` from the repository root. Branch protections remain enabled.
 
-## Preview
+## Website files
 
-From this directory, run `py -3 -m http.server 8794 --bind 127.0.0.1` and open `http://127.0.0.1:8794/`.
+- `index.html`: overview, fictional interactive example, current progress and roadmap summary.
+- `platform.html`: platform and bounded-pilot guide.
+- `roadmap.html`: built capabilities, current priorities and future ambitions, plus the progress checklist.
+- `trust.html`: source, revision and review principles.
+- `assets/` and `mark.svg`: the built styles, scripts, bundled Manrope fonts and project mark.
 
-## GitHub Pages
-
-The intended repository is `claudedclaude2-byte/claudedclaude2-byte.github.io`, with `main` and the root folder as its Pages source. No package installation or framework build is required. `.nojekyll` keeps the static files unchanged.
-
-The profile README is maintained separately in `claudedclaude2-byte/claudedclaude2-byte`.
-
-## Public-content boundary
-
-Only presentation files belong here. Do not add product source, client or investigation records, runtime databases, credentials, internal acceptance receipts or session logs. The fictional illustration is explanatory UI, not the product or its runnable synthetic demo.
-
+This repository contains only the public website and its public progress data. Keep product source, private records, runtime databases, credentials and internal work logs out of it.
