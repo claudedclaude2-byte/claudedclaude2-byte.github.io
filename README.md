@@ -2,11 +2,15 @@
 
 Static project presentation for GitHub Pages. The implementation repository and investigation records remain private.
 
+## Public roadmap
+
+[Read the project roadmap](ROADMAP.md): built capabilities, current pilot integration, first-use and partner evaluations, richer review tools, collaboration and deeper discovery. The matching website page is [roadmap.html](https://claudedclaude2-byte.github.io/roadmap.html).
+
 ## Pages
 
 - `index.html`: overview, workflow, fictional illustration, current status and FAQ.
 - `platform.html`: complete capability, pilot, format and architecture guide.
-- `roadmap.html`: staged product direction and acceptance gates.
+- `roadmap.html`: built capabilities, current work, next steps and longer-term ambitions.
 - `trust.html`: data principles, verification boundaries, human review and scope.
 
 ## Preview
@@ -22,3 +26,4 @@ The profile README is maintained separately in `claudedclaude2-byte/claudedclaud
 ## Public-content boundary
 
 Only presentation files belong here. Do not add product source, client or investigation records, runtime databases, credentials, internal acceptance receipts or session logs. The fictional illustration is explanatory UI, not the product or its runnable synthetic demo.
+
