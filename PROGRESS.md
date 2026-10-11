@@ -11,18 +11,17 @@ The combined fictional pilot has completed automated Windows checks, and Windows
 - [x] **Combined Windows pilot** — Usability, packaging, source-wording and startup changes are combined in one candidate. Its recorded Windows suite completed with 6,332 tests passed and 424 skipped.
 - [x] **Installed Windows journey** — The final candidate completed 484 installed tests, with three skipped, 13 smoke checks and 281 browser checks. These are automated results on the development machine.
 - [x] **Reproducible package** — Two builds of the final fictional pilot produced identical package bytes. Installation and package identity were checked on the development machine.
-- [x] **Fictional operator rehearsal** — The walkthrough and recipient checks were rerun against the corrected candidate. These exercises use fictional records.
+- [x] **First-use rehearsal on a development machine** — The corrected candidate's package was unpacked, set up and checked in a new folder on a development machine, using fictional records only. The package checks, the one correction round and both recipient checks passed. A separate clean machine and participant feedback are still open, so this is not the clean-machine first use below, an acceptance result or a release.
 - [x] **Public project presentation** — This website and its public roadmap are hosted online. Product source and private research remain separate.
 
 ## Acceptance still open
 
 - [ ] **Final technical review** — The previous candidate received a blocking review finding. The one planned review and one correction pass have been used. The correction pass has machine evidence, but no independent review of the corrected candidate has been run.
-- [ ] **In progress: Linux and Docker verification (partial)** — A partial Linux and Docker verification of the corrected candidate is in progress and is not yet an acceptance result. Earlier Linux results apply to the preceding candidate and do not verify the corrected build. Windows remains the authoritative platform.
+- [ ] **In progress: Linux and Docker verification (partial)** — Not yet complete: no Linux or Docker result exists for the corrected candidate. The run is admitted only when enough memory is free, and the local container engine is started just for that run and closed afterwards; attempts so far have not produced a result. It is a partial check and not an acceptance result. Earlier Linux results apply to the preceding candidate and do not verify the corrected build. Windows remains the authoritative platform.
 - [ ] **Lint and security baseline** — Repository-wide checks still retain existing findings. Recorded changes add no new findings in the checked code and security rules; this does not mean the entire repository is clean.
 
 ## Next milestones
 
-- [ ] **First-use rehearsal and fictional operator walkthrough** — Planned: a further first-use rehearsal and fictional operator and recipient walkthrough of the corrected candidate. No clean-machine, physical or participant observation has been made, and this does not replace the separate clean-machine first use below.
 - [ ] **Clean-machine first use** — Verify the accepted final package on a separate clean machine and record its first-use journey.
 - [ ] **Guided fictional evaluations** — Use fictional samples with evaluation partners to learn where onboarding, source inspection and revision review can improve.
 - [ ] **Prepare a runnable release** — Close the remaining technical and release obligations before offering a public product download.
