@@ -17,7 +17,7 @@ The combined fictional pilot has completed automated Windows checks, and Windows
 ## Acceptance still open
 
 - [ ] **Final technical review** — The previous candidate received a blocking review finding. The one planned review and one correction pass have been used. The correction pass has machine evidence, but no independent review of the corrected candidate has been run.
-- [ ] **In progress: Linux and Docker verification (partial)** — Not yet complete: no Linux or Docker result exists for the corrected candidate. The run is admitted only when enough memory is free, and the local container engine is started just for that run and closed afterwards; attempts so far have not produced a result. It is a partial check and not an acceptance result. Earlier Linux results apply to the preceding candidate and do not verify the corrected build. Windows remains the authoritative platform.
+- [ ] **In progress: Linux and Docker verification (partial)** — Ran on the corrected candidate in a disposable Linux container: 5,443 tests passed and 11 known failures are held for the next candidate (9 Windows-only file-access cases and 2 shell-portability cases). A partial platform check, not a substitute for the Windows suite, not acceptance or release.
 - [ ] **Lint and security baseline** — Repository-wide checks still retain existing findings. Recorded changes add no new findings in the checked code and security rules; this does not mean the entire repository is clean.
 
 ## Next milestones
