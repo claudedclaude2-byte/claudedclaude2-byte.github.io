@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-11",
-  "scope": "The combined fictional pilot has completed automated Windows checks. Final technical acceptance remains open: the corrected candidate has not received an independent review, and its Linux/Docker verification is still pending. A public product download is not available.",
+  "scope": "The combined fictional pilot has completed automated Windows checks, and Windows remains the authoritative platform. Final technical acceptance remains open: the corrected candidate has not received an independent review, and its partial Linux/Docker verification is in progress. No release is authorized, and a public product download is not available.",
   "groups": [
     {
       "id": "done",
@@ -42,11 +42,11 @@
       "items": [
         {
           "title": "Final technical review",
-          "detail": "The previous candidate received a blocking review finding. The correction pass has machine evidence, but no independent verdict on the corrected candidate."
+          "detail": "The previous candidate received a blocking review finding. The one planned review and one correction pass have been used. The correction pass has machine evidence, but no independent review of the corrected candidate has been run."
         },
         {
-          "title": "Linux and Docker verification",
-          "detail": "Docker was stopped during the final verification window. Earlier Linux results apply to the preceding candidate and do not verify the corrected build."
+          "title": "In progress: Linux and Docker verification (partial)",
+          "detail": "A partial Linux and Docker verification of the corrected candidate is in progress and is not yet an acceptance result. Earlier Linux results apply to the preceding candidate and do not verify the corrected build. Windows remains the authoritative platform."
         },
         {
           "title": "Lint and security baseline",
@@ -58,6 +58,10 @@
       "id": "next",
       "title": "Next milestones",
       "items": [
+        {
+          "title": "First-use rehearsal and fictional operator walkthrough",
+          "detail": "Planned: a further first-use rehearsal and fictional operator and recipient walkthrough of the corrected candidate. No clean-machine, physical or participant observation has been made, and this does not replace the separate clean-machine first use below."
+        },
         {
           "title": "Clean-machine first use",
           "detail": "Verify the accepted final package on a separate clean machine and record its first-use journey."
