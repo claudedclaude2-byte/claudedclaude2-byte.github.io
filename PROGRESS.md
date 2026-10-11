@@ -2,7 +2,7 @@
 
 Last checked: 2026-10-11.
 
-The combined fictional pilot has completed automated Windows checks. Final technical acceptance remains open: the corrected candidate has not received an independent review, and its Linux/Docker verification is still pending. A public product download is not available.
+The combined fictional pilot has completed automated Windows checks, and Windows remains the authoritative platform. Final technical acceptance remains open: the corrected candidate has not received an independent review, and its partial Linux/Docker verification is in progress. No release is authorized, and a public product download is not available.
 
 ## Completed
 
@@ -16,12 +16,13 @@ The combined fictional pilot has completed automated Windows checks. Final techn
 
 ## Acceptance still open
 
-- [ ] **Final technical review** — The previous candidate received a blocking review finding. The correction pass has machine evidence, but no independent verdict on the corrected candidate.
-- [ ] **Linux and Docker verification** — Docker was stopped during the final verification window. Earlier Linux results apply to the preceding candidate and do not verify the corrected build.
+- [ ] **Final technical review** — The previous candidate received a blocking review finding. The one planned review and one correction pass have been used. The correction pass has machine evidence, but no independent review of the corrected candidate has been run.
+- [ ] **In progress: Linux and Docker verification (partial)** — A partial Linux and Docker verification of the corrected candidate is in progress and is not yet an acceptance result. Earlier Linux results apply to the preceding candidate and do not verify the corrected build. Windows remains the authoritative platform.
 - [ ] **Lint and security baseline** — Repository-wide checks still retain existing findings. Recorded changes add no new findings in the checked code and security rules; this does not mean the entire repository is clean.
 
 ## Next milestones
 
+- [ ] **First-use rehearsal and fictional operator walkthrough** — Planned: a further first-use rehearsal and fictional operator and recipient walkthrough of the corrected candidate. No clean-machine, physical or participant observation has been made, and this does not replace the separate clean-machine first use below.
 - [ ] **Clean-machine first use** — Verify the accepted final package on a separate clean machine and record its first-use journey.
 - [ ] **Guided fictional evaluations** — Use fictional samples with evaluation partners to learn where onboarding, source inspection and revision review can improve.
 - [ ] **Prepare a runnable release** — Close the remaining technical and release obligations before offering a public product download.
