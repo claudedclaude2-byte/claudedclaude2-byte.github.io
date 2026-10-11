@@ -46,7 +46,7 @@
         },
         {
           "title": "In progress: Linux and Docker verification (partial)",
-          "detail": "Not yet complete: no Linux or Docker result exists for the corrected candidate. The run is admitted only when enough memory is free, and the local container engine is started just for that run and closed afterwards; attempts so far have not produced a result. It is a partial check and not an acceptance result. Earlier Linux results apply to the preceding candidate and do not verify the corrected build. Windows remains the authoritative platform."
+          "detail": "Ran on the corrected candidate in a disposable Linux container: 5,443 tests passed and 11 known failures are held for the next candidate (9 Windows-only file-access cases and 2 shell-portability cases). A partial platform check, not a substitute for the Windows suite, not acceptance or release."
         },
         {
           "title": "Lint and security baseline",
