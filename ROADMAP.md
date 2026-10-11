@@ -39,7 +39,7 @@ The bounded pilot has private Windows verification and a fictional end-to-end re
 - Check supplied statements and expected passages against a small set of PDFs, with source-page citations.
 - Keep exact matches, possible matches, missing records and unread files visible in the draft review pack.
 - Preserve one correction round and its reason, with the earlier revision available for comparison.
-- Combine packaging, startup, usability and documentation fixes; refresh the fictional demonstration to the final build.
+- The combined candidate and fictional demonstration have passed recorded Windows checks; close final technical acceptance and clean-machine first use.
 
 **What progress looks like:** A single verified local package, a matching demonstration and a successful clean-machine installation.
 
@@ -103,6 +103,6 @@ Document-preparation firms, records-access practitioners, research teams and evi
 
 ## Current availability
 
-The implementation remains private. The local PDF pilot is in integration and validation; a public runnable release is still ahead. Team access, a hosted workspace and deeper retrieval are future directions, not current services.
+The implementation remains private. The combined local PDF pilot has recorded Windows checks; final technical acceptance and a public runnable release are still ahead. Team access, a hosted workspace and deeper retrieval are future directions, not current services.
 
 The pilot currently handles one question, up to 6 born-digital PDFs, 20 total pages and one correction round. Its checks support source inspection; people assess meaning and make review decisions.

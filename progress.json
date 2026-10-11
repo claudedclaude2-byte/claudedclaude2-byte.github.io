@@ -1,36 +1,75 @@
 {
-  "updated": "2026-10-10",
-  "scope": "Development progress. Completed items describe private implementation or the named validation work; the combined pilot is still being integrated.",
+  "updated": "2026-10-11",
+  "scope": "The combined fictional pilot has completed automated Windows checks. Final technical acceptance remains open: the corrected candidate has not received an independent review, and its Linux/Docker verification is still pending. A public product download is not available.",
   "groups": [
     {
       "id": "done",
       "title": "Completed",
       "items": [
-        {"title": "Records and evidence foundations", "detail": "Records requests, response gaps, evidence search, source provenance and versioned dossier components are implemented."},
-        {"title": "PDF review and correction workflow", "detail": "Source-page citations, explicit match and unread states, one correction round and preserved earlier revisions are implemented in the private pilot."},
-        {"title": "Clearer pilot usability", "detail": "A named source-review question, narrow-screen fingerprint wrapping and text labels for OCR progress have passed candidate-specific verification."},
-        {"title": "Fictional installed rehearsal", "detail": "The selected private pilot completed an automated Windows journey covering preparation, correction, review-state changes and recipient verification."},
-        {"title": "Fictional walkthrough and backup", "detail": "A fictional walkthrough kit was prepared and its independent backup checked. Refreshing it to the final integrated pilot remains ahead."},
-        {"title": "Public project presentation", "detail": "The website and GitHub roadmap explain the project, its implemented foundations and its longer-term ambitions."}
+        {
+          "title": "Records and evidence foundations",
+          "detail": "Records requests, response gaps, evidence search, source provenance and versioned dossier components are implemented in private development."
+        },
+        {
+          "title": "PDF review and correction workflow",
+          "detail": "Source-page citations, explicit match and unread states, a correction round and preserved earlier revisions are implemented in the fictional pilot."
+        },
+        {
+          "title": "Combined Windows pilot",
+          "detail": "Usability, packaging, source-wording and startup changes are combined in one candidate. Its recorded Windows suite completed with 6,332 tests passed and 424 skipped."
+        },
+        {
+          "title": "Installed Windows journey",
+          "detail": "The final candidate completed 484 installed tests, with three skipped, 13 smoke checks and 281 browser checks. These are automated results on the development machine."
+        },
+        {
+          "title": "Reproducible package",
+          "detail": "Two builds of the final fictional pilot produced identical package bytes. Installation and package identity were checked on the development machine."
+        },
+        {
+          "title": "Fictional operator rehearsal",
+          "detail": "The walkthrough and recipient checks were rerun against the corrected candidate. These exercises use fictional records."
+        },
+        {
+          "title": "Public project presentation",
+          "detail": "This website and its public roadmap are hosted online. Product source and private research remain separate."
+        }
       ]
     },
     {
       "id": "working",
-      "title": "In progress",
+      "title": "Acceptance still open",
       "items": [
-        {"title": "Combined pilot delivery", "detail": "Bring the usability, packaging, source-wording and startup changes into one candidate and verify that combined build."},
-        {"title": "Windows startup hardening", "detail": "Complete verification and closeout of the startup guard, then integrate it into the combined pilot."},
-        {"title": "Packaging and operator guidance", "detail": "Resolve package-builder review findings and clarify the installation and recipient-verification instructions."}
+        {
+          "title": "Final technical review",
+          "detail": "The previous candidate received a blocking review finding. The correction pass has machine evidence, but no independent verdict on the corrected candidate."
+        },
+        {
+          "title": "Linux and Docker verification",
+          "detail": "Docker was stopped during the final verification window. Earlier Linux results apply to the preceding candidate and do not verify the corrected build."
+        },
+        {
+          "title": "Lint and security baseline",
+          "detail": "Repository-wide checks still retain existing findings. Recorded changes add no new findings in the checked code and security rules; this does not mean the entire repository is clean."
+        }
       ]
     },
     {
       "id": "next",
       "title": "Next milestones",
       "items": [
-        {"title": "Clean-machine installation", "detail": "Install the final combined package on a clean machine and complete its first-use journey."},
-        {"title": "Refresh the demonstration", "detail": "Rebuild the fictional walkthrough against the accepted integrated pilot and check its backup."},
-        {"title": "Guided partner evaluations", "detail": "Use fictional samples to learn where onboarding, source inspection and revision review can improve."},
-        {"title": "Prepare a runnable release", "detail": "Complete the remaining technical and release work before offering a public product download."}
+        {
+          "title": "Clean-machine first use",
+          "detail": "Verify the accepted final package on a separate clean machine and record its first-use journey."
+        },
+        {
+          "title": "Guided fictional evaluations",
+          "detail": "Use fictional samples with evaluation partners to learn where onboarding, source inspection and revision review can improve."
+        },
+        {
+          "title": "Prepare a runnable release",
+          "detail": "Close the remaining technical and release obligations before offering a public product download."
+        }
       ]
     }
   ]
