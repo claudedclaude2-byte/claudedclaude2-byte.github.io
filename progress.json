@@ -27,8 +27,8 @@
           "detail": "Two builds of the final fictional pilot produced identical package bytes. Installation and package identity were checked on the development machine."
         },
         {
-          "title": "Fictional operator rehearsal",
-          "detail": "The walkthrough and recipient checks were rerun against the corrected candidate. These exercises use fictional records."
+          "title": "First-use rehearsal on a development machine",
+          "detail": "The corrected candidate's package was unpacked, set up and checked in a new folder on a development machine, using fictional records only. The package checks, the one correction round and both recipient checks passed. A separate clean machine and participant feedback are still open, so this is not the clean-machine first use below, an acceptance result or a release."
         },
         {
           "title": "Public project presentation",
@@ -46,7 +46,7 @@
         },
         {
           "title": "In progress: Linux and Docker verification (partial)",
-          "detail": "A partial Linux and Docker verification of the corrected candidate is in progress and is not yet an acceptance result. Earlier Linux results apply to the preceding candidate and do not verify the corrected build. Windows remains the authoritative platform."
+          "detail": "Not yet complete: no Linux or Docker result exists for the corrected candidate. The run is admitted only when enough memory is free, and the local container engine is started just for that run and closed afterwards; attempts so far have not produced a result. It is a partial check and not an acceptance result. Earlier Linux results apply to the preceding candidate and do not verify the corrected build. Windows remains the authoritative platform."
         },
         {
           "title": "Lint and security baseline",
@@ -58,10 +58,6 @@
       "id": "next",
       "title": "Next milestones",
       "items": [
-        {
-          "title": "First-use rehearsal and fictional operator walkthrough",
-          "detail": "Planned: a further first-use rehearsal and fictional operator and recipient walkthrough of the corrected candidate. No clean-machine, physical or participant observation has been made, and this does not replace the separate clean-machine first use below."
-        },
         {
           "title": "Clean-machine first use",
           "detail": "Verify the accepted final package on a separate clean machine and record its first-use journey."
