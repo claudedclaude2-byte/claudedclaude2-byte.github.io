@@ -51,6 +51,10 @@
         {
           "title": "Lint and security baseline",
           "detail": "Repository-wide checks still retain existing findings. Recorded changes add no new findings in the checked code and security rules; this does not mean the entire repository is clean."
+        },
+        {
+          "title": "In progress: Automatic local tool startup and shutdown",
+          "detail": "The shared runtime is implemented to start local tools when an operation needs them and close connections, temporary containers and ports after the last active owner finishes. Qualification is in progress, including interrupted jobs. Pilot acceptance and release remain open."
         }
       ]
     },
