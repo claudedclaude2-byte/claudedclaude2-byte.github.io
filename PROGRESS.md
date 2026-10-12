@@ -1,6 +1,6 @@
 # Records Intelligence — development progress
 
-Last checked: 2026-10-11.
+Last checked: 2026-10-12.
 
 The combined fictional pilot has completed automated Windows checks, and Windows remains the authoritative platform. Final technical acceptance remains open: the corrected candidate has not received an independent review, and its partial Linux/Docker verification is in progress. No release is authorized, and a public product download is not available.
 
@@ -17,11 +17,12 @@ The combined fictional pilot has completed automated Windows checks, and Windows
 ## Acceptance still open
 
 - [ ] **Final technical review** — The previous candidate received a blocking review finding. The one planned review and one correction pass have been used. The correction pass has machine evidence, but no independent review of the corrected candidate has been run.
-- [ ] **In progress: Linux and Docker verification (partial)** — Ran on the corrected candidate in a disposable Linux container: 5,443 tests passed and 11 known failures are held for the next candidate (9 Windows-only file-access cases and 2 shell-portability cases). A partial platform check, not a substitute for the Windows suite, not acceptance or release.
+- [ ] **In progress: Linux and Docker verification (partial)** — The Linux run on the corrected candidate passed 5,443 tests and held 11 known failures (9 Windows-only file-access cases and 2 shell-portability cases). They are now being repaired on a new candidate: the 9 file-access cases get explicit platform guards, so Linux reports them as visible skips while native Windows still runs them, and the 2 shell tests are being made portable to shells that do not search the command path. Also in progress on that candidate: a fix so cropped page images in the review bundle cannot reveal hidden marks in the footer strip, and two output-path boundary fixes (transcript-anchor output across revisions, and '..' handling on POSIX systems). None of this is verified yet. A partial platform check, not a substitute for the Windows suite, not acceptance or release.
 - [ ] **Lint and security baseline** — Repository-wide checks still retain existing findings. Recorded changes add no new findings in the checked code and security rules; this does not mean the entire repository is clean.
 
 ## Next milestones
 
+- [ ] **Verify the repaired candidate** — Planned, after the repairs above: one native Windows test suite and one complete partial Linux run on the new candidate, then package and installed checks. Results will be recorded here only after they exist; none of this is acceptance or release.
 - [ ] **Clean-machine first use** — Verify the accepted final package on a separate clean machine and record its first-use journey.
 - [ ] **Guided fictional evaluations** — Use fictional samples with evaluation partners to learn where onboarding, source inspection and revision review can improve.
 - [ ] **Prepare a runnable release** — Close the remaining technical and release obligations before offering a public product download.
