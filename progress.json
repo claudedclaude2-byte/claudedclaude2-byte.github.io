@@ -53,6 +53,10 @@
           "detail": "The earlier Linux run on the corrected candidate passed 5,443 tests and held 11 known failures (9 Windows-only file-access cases and 2 shell-portability cases). The repairs for those cases are implemented on the new candidate and checked on Windows (see Completed), but the complete partial Linux run on the new candidate has no result yet: it was started once and stopped before any test ran, to stay within the test machine's free-memory limit, and it waits for enough free memory. Until it runs, the repairs are not confirmed on Linux, and the footer-strip fix stays partial: an annotation below a page's crop box and a crop box larger than the media box remain open. A partial platform check, not a substitute for the Windows suite, not acceptance or release."
         },
         {
+          "title": "In progress: Further repairs to the repaired candidate",
+          "detail": "A further round of repairs is written but not yet checked as a whole, so the Windows results recorded here so far do not cover it. Review bundles now place stamps, highlights and notes on rotated pages where the original shows them, and they hide marks that lie wholly outside a page's visible area so that those marks cannot show in the footer strip; this addresses the two open footer-strip cases named in the Linux item. A mark that crosses the bottom edge of the visible area is still shown in part and stays open, and the text layer still includes text that a page hides outside its visible area. Delivery checks now recognise the same folder however a path is spelled (through folder links or '..'), on every platform. The pilot's self-check removes the temporary test folders it makes. The evidence health check and the evidence searches only read, and they report that there is nothing to check when there is no database. These repairs are not verified until the checks listed in Next milestones have run, and none of this is acceptance or release."
+        },
+        {
           "title": "Lint and security baseline",
           "detail": "Repository-wide checks still retain existing findings. Recorded changes add no new findings in the checked code and security rules; this does not mean the entire repository is clean."
         },
@@ -68,7 +72,7 @@
       "items": [
         {
           "title": "Finish verifying the repaired candidate",
-          "detail": "What remains: one complete partial Linux run on the new candidate, once enough free memory is available; the two open cases of the footer-strip fix; the small cleanup follow-up for the optional installed test run; and owner decisions on acceptance and release. Results will be recorded here only after they exist; none of this is acceptance or release."
+          "detail": "What remains: Windows acceptance of the new version, meaning the full test suite, the protection checks, the install-and-self-check run (which also shows whether the temporary-folder cleanup now works) and the pilot kit exercises; one complete partial Linux confirmation run on it, once enough free memory is available; the remaining open footer-strip case; and owner decisions on acceptance and release. Results will be recorded here only after they exist; none of this is acceptance or release."
         },
         {
           "title": "Clean-machine first use",
