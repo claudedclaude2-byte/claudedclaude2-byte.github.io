@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "scope": "The combined fictional pilot has completed automated Windows checks, and Windows remains the authoritative platform. Final technical acceptance remains open: the corrected candidate has not received an independent review, and its partial Linux/Docker verification is in progress. No release is authorized, and a public product download is not available.",
   "groups": [
     {
@@ -35,6 +35,10 @@
           "detail": "Checked on Windows, on a development machine; not acceptance or release. The final repair round's full Windows test suite completed with 6,686 tests passed, 458 skipped and 0 failed. The candidate carries the repairs: explicit platform skips for the 9 Windows-only file-access cases (they still run on Windows), portable checks for the 2 shell cases, an opaque footer strip in the review bundle's page images that also handles an annotation below a page's crop box and a crop box larger than the media box (a partial fix: an annotation that crosses the bottom edge of a page's visible area remains open; a documented limit remains: the text layer still includes text that a page hides outside its visible area), output-path boundary fixes for transcript-anchor output and '..' handling, now also at 4 further path sites, delivery checks that recognise the same folder however a path is spelled (through folder links or '..'), checked on Windows and not yet confirmed on Linux, review-bundle stamps, highlights and notes placed on rotated pages where the original shows them, except a free-text note that has no drawn appearance, evidence health checks and searches that only read and report that there is nothing to check when there is no database, and a check script that keeps the test run's temporary files in a folder of its own and removes it. The lint and security checks add no new findings (see the baseline item below), the dependency audit found 0 known vulnerabilities, and 209 of 209 deliberately introduced faults were caught by the tests. The package rebuilt twice with identical bytes and installed offline; the smoke test passed 13 of 13 checks, 571 installed tests passed (61 skipped), the headed-browser acceptance run passed 281 checks with 0 failed, and the recipient-route checks passed. The cleanup check that failed in the previous round now passes: the optional installed test run no longer leaves a temporary folder behind. No independent review of the repairs has been run."
         },
         {
+          "title": "Windows verification of the business evaluation version",
+          "detail": "Checked on Windows, on a development machine; not acceptance or release. The business evaluation version adds capacity profiles (named document limits, offered only once tested), a separate customer installation package, an updated operator guide and a fixed-scope evaluation offer that is still a draft. Its full Windows test suite completed with 8,027 tests passed, 470 skipped and 0 failed. The deliberately introduced faults were caught by the tests (538 of 538). The standard package rebuilt twice with identical bytes and installed offline on a development machine, and the separate customer package, assembled from a fixed list of files, was installed offline, used, stopped and uninstalled there (not on a clean machine). Document limits for the larger evaluation profile were measured on the real code, and that profile is offered only up to the limits that were measured. The evaluation offer is a draft only: it has not been sent or offered to anyone, and no software has been handed out. No independent review of this version has been run. The Linux confirmation run is still open. A first use on a clean machine is still open."
+        },
+        {
           "title": "Public project presentation",
           "detail": "This website and its public roadmap are hosted online. Product source and private research remain separate."
         }
@@ -54,7 +58,7 @@
         },
         {
           "title": "In progress: Business evaluation version",
-          "detail": "Work on a version of the fictional pilot for a bounded business evaluation (Windows, one operator, fictional or non-confidential documents only) has reached the implementation stage in a development copy. Capacity profiles are implemented: the demonstration limits are unchanged, and the larger evaluation profile stays experimental and is not offered, because its limits are still to be measured (the first measurement found one slow processing stage, which has since been sped up in the development copy; the measurement is to be repeated on the version that is checked). A separate customer installation package is assembled from a fixed list of the files the pilot needs; with a trial build, its offline install, use, stop and uninstall were rehearsed on a development machine (not a clean machine). The operator guide and the fixed-scope evaluation offer are drafts: the offer is a draft only, it has not been sent or offered to anyone, and no software has been handed out. The version as a whole has not been checked yet, and none of this is acceptance or release."
+          "detail": "The business evaluation version has passed its Windows checks on a development machine (see Completed). The larger evaluation profile is offered only up to the limits that were measured. Still open: the Linux confirmation run on a real Linux system, a first use of the separate customer package on a clean machine, and the owner decisions on acceptance and release. The evaluation offer remains a draft that has not been sent or offered to anyone, no software has been handed out, and none of this is acceptance or release."
         },
         {
           "title": "Lint and security baseline",
@@ -72,7 +76,7 @@
       "items": [
         {
           "title": "Verify the business evaluation version",
-          "detail": "Windows checks of the new version, then the Linux confirmation run on a real Linux system. The new version contains the repaired candidate's repairs, so the same Linux run would also confirm them. Results will be recorded here only after they exist; none of this is acceptance or release."
+          "detail": "The Linux confirmation run on a real Linux system, then a first use of the separate customer package on a clean machine. Results will be recorded here only after they exist; none of this is acceptance or release."
         },
         {
           "title": "Finish verifying the repaired candidate",
