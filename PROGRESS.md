@@ -1,6 +1,6 @@
 # Records Intelligence — development progress
 
-Last checked: 2026-10-14.
+Last checked: 2026-10-15.
 
 The combined fictional pilot has completed automated Windows checks, and Windows remains the authoritative platform. Final technical acceptance remains open: the corrected candidate has not received an independent review, and its partial Linux/Docker verification has passed on the development machine as a partial platform check only. No release is authorized, and a public product download is not available.
 
@@ -21,7 +21,7 @@ The combined fictional pilot has completed automated Windows checks, and Windows
 ## Acceptance still open
 
 - [ ] **Final technical review** — The previous candidate received a blocking review finding. The one planned review and one correction pass have been used. The correction pass has machine evidence, but no independent review of the corrected candidate has been run.
-- [ ] **In progress: Business evaluation version** — The business evaluation version has passed its Windows checks, and a partial Linux check in a container, on a development machine (see Completed). The larger evaluation profile is offered only up to the limits that were measured. No independent review of this version has been run. Still open: a first use of the separate customer package on a clean machine, and the owner decisions on acceptance and release. The evaluation offer remains a draft that has not been sent or offered to anyone, no software has been handed out, and none of this is acceptance or release.
+- [ ] **In progress: Business evaluation version** — The business evaluation version has passed its Windows checks, and a partial Linux check in a container, on a development machine (see Completed). The larger evaluation profile is offered only up to the limits that were measured. No independent review of this version has been run. Still open: a first use of the separate customer package on a clean machine, and the owner decisions on acceptance and release. Work has started on a first-use check of the evaluation package inside an isolated, offline Windows sandbox on the development machine: a fresh, disposable Windows guest with networking switched off, receiving only the package folder and an offline Python installer. This is a stronger check than the earlier rehearsal on the development machine, but it is not a separate clean machine. It has had no independent review, and nothing will be recorded as completed until it has actually run and its receipts have been checked. The evaluation offer remains a draft that has not been sent or offered to anyone, no software has been handed out, and none of this is acceptance or release.
 - [ ] **Lint and security baseline** — Repository-wide checks still retain existing findings. Recorded changes add no new findings in the checked code and security rules; this does not mean the entire repository is clean.
 - [ ] **In progress: Automatic local tool startup and shutdown** — The shared runtime is implemented to start local tools when an operation needs them and close connections, temporary containers and ports after the last active owner finishes. Qualification is in progress, including interrupted jobs. Pilot acceptance and release remain open.
 
