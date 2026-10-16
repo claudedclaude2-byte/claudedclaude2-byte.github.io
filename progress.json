@@ -75,6 +75,10 @@
         {
           "title": "In progress: Automatic local tool startup and shutdown",
           "detail": "The shared runtime is implemented to start local tools when an operation needs them and close connections, temporary containers and ports after the last active owner finishes. Qualification is in progress, including interrupted jobs. Pilot acceptance and release remain open."
+        },
+        {
+          "title": "Customer requests and future versions",
+          "detail": "A local workflow is being developed to capture customer wishes, define acceptance criteria, prepare coding briefs and track improvements through planned versions and recorded releases. Verification and integration with the pilot remain in progress."
         }
       ]
     },
