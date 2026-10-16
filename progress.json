@@ -66,7 +66,7 @@
         },
         {
           "title": "In progress: Path safety for workspace folders on Windows",
-          "detail": "Work has started on a safeguard for long workspace folder paths on Windows. A test on the development machine, run with the default Windows path-length limit enforced, showed that the current pilot can stop part-way through delivering a first revision when the workspace folder path is too long, and leaves a half-written folder behind. The planned change has two parts: the pilot will say plainly, before any work starts, when a workspace folder is too long for the default Windows limit of 260 characters, and it will clean up only the leftover temporary folders that it can prove it created itself. An earlier first-use check in an isolated sandbox met a path-length problem of the same kind. The change is being made and tested on a development copy of the pilot; it is not finished, it has had no independent review, and none of this is acceptance or release."
+          "detail": "The safeguard for long workspace folder paths on Windows has been made on a development copy of the pilot and frozen as a candidate: the pilot now says plainly, before any work starts, when a workspace folder is too long for the default Windows limit of 260 characters, and it cleans up only the leftover temporary folders that it can prove it created itself. The full Windows checks of that frozen candidate have completed on the development machine: its test suite ran with 8,301 tests passed, 472 skipped and 0 failed, and 563 of 563 deliberately introduced faults were caught by the tests. The first-use run in an isolated, offline Windows sandbox and the Linux test run come next. These checks use fictional data only; the change has had no independent review, and none of this is acceptance or release."
         },
         {
           "title": "Lint and security baseline",
@@ -88,7 +88,7 @@
         },
         {
           "title": "Verify workspace path safety on a successor candidate",
-          "detail": "A frozen successor candidate that contains the path-safety change goes through the first-use run in an isolated, offline Windows sandbox on the development machine, and then through the full Windows and Linux test runs. Results will be recorded here only after they exist; none of this is acceptance or release."
+          "detail": "The frozen candidate with the path-safety change goes through the first-use run in an isolated, offline Windows sandbox on the development machine, and then through the Linux test run in a container. Results will be recorded here only after they exist; none of this is acceptance or release."
         },
         {
           "title": "Clean-machine first use",
