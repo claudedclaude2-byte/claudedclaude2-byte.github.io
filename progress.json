@@ -65,6 +65,10 @@
           "detail": "The business evaluation version has passed its Windows checks, and a partial Linux check in a container, on a development machine (see Completed). The larger evaluation profile is offered only up to the limits that were measured. No independent review of this version has been run. Still open: a first use of the separate customer package on a clean machine, and the owner decisions on acceptance and release. The first-use check of the evaluation package in an isolated, offline Windows sandbox on the development machine has now run its full 70-step plan on the corrected candidate: 68 steps passed, 2 did not apply and none failed. A fresh, disposable Windows guest with networking switched off received only the package folder, an offline Python installer and the check scripts; offline setup, the fictional matter journey, the browser and recipient checks, stopping, restarting and uninstalling all passed. An earlier run, on the previous candidate, failed 2 of its 70 steps, both runs of the smoke test, because a long user path pushed files past the default Windows path-length limit of 260 characters, which the development machine did not show; the smoke test and the installation self-check now choose a folder that fits the limit, and the two steps now pass. The full Windows test run of the corrected candidate has also completed on the development machine, with 8,060 tests passed, 471 skipped and 0 failed, newer than the figures in the Completed items. A partial Linux run in a container, on that candidate plus two later changes to test code only, ran 138 of its 170 registered test files, with 6,169 tests passed, 337 skipped and 0 failed; the other 32 files test file-access features that exist only on Windows. The sandbox run used fictional data only, ran on the same machine and Windows build as the development work, covered one install route without customer security software, proxy or reboot, and the guest wrote its own receipts, so it is not a separate clean machine; this version stays in progress. The evaluation offer remains a draft that has not been sent or offered to anyone, no software has been handed out, and none of this is acceptance or release."
         },
         {
+          "title": "In progress: Path safety for workspace folders on Windows",
+          "detail": "Work has started on a safeguard for long workspace folder paths on Windows. A test on the development machine, run with the default Windows path-length limit enforced, showed that the current pilot can stop part-way through delivering a first revision when the workspace folder path is too long, and leaves a half-written folder behind. The planned change has two parts: the pilot will say plainly, before any work starts, when a workspace folder is too long for the default Windows limit of 260 characters, and it will clean up only the leftover temporary folders that it can prove it created itself. An earlier first-use check in an isolated sandbox met a path-length problem of the same kind. The change is being made and tested on a development copy of the pilot; it is not finished, it has had no independent review, and none of this is acceptance or release."
+        },
+        {
           "title": "Lint and security baseline",
           "detail": "Repository-wide checks still retain existing findings. Recorded changes add no new findings in the checked code and security rules; this does not mean the entire repository is clean."
         },
@@ -81,6 +85,10 @@
         {
           "title": "Finish verifying the repaired candidate",
           "detail": "What remains: the one open case of the footer-strip fix; and owner decisions on acceptance and release. Results will be recorded here only after they exist; none of this is acceptance or release."
+        },
+        {
+          "title": "Verify workspace path safety on a successor candidate",
+          "detail": "A frozen successor candidate that contains the path-safety change goes through the first-use run in an isolated, offline Windows sandbox on the development machine, and then through the full Windows and Linux test runs. Results will be recorded here only after they exist; none of this is acceptance or release."
         },
         {
           "title": "Clean-machine first use",
