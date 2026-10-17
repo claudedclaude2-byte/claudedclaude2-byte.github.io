@@ -11,7 +11,7 @@ A complete investigation workbench: connect records requests, documents, source-
 | Stage | Status | Outcome |
 | --- | --- | --- |
 | 01 · The evidence foundation | Built in private development | Bring these existing components together around a clear, dependable review journey. |
-| 02 · One dependable PDF review journey | Current work | A single verified local package, a matching demonstration and a successful clean-machine installation. |
+| 02 · A small offline evidence checker | Next: planned, not started | A small reproducible package with documented outcomes and a clear licence and publication plan. The wider platform stays private; funding and release are not yet agreed. |
 | 03 · Make the first hour straightforward | Next | A new operator can prepare, inspect, correct and review a fictional case with clear guidance. |
 | 04 · Give reviewers a richer workbench | Planned direction | Each addition solves an observed review problem while preserving source and revision traceability. |
 | 05 · Connect people and existing workflows | Longer-term ambition | A partner evaluation demonstrates a useful fit, with agreed data handling, access and responsibilities. |
@@ -30,18 +30,18 @@ The core pieces already exist: records workflows, evidence search, provenance, c
 
 **What progress looks like:** Bring these existing components together around a clear, dependable review journey.
 
-## 02 · One dependable PDF review journey
+## 02 · A small offline evidence checker
 
-**Current work**
+**Next: planned, not started**
 
-The bounded pilot has private Windows verification and a fictional end-to-end rehearsal. Integration work is bringing the latest fixes into one deliverable.
+Package a narrow part of the existing private pilot into a reproducible local checker. A US$1,000 FUTO microgrant application has been submitted; funding and eligibility are unconfirmed.
 
-- Check supplied statements and expected passages against a small set of PDFs, with source-page citations.
-- Keep exact matches, possible matches, missing records and unread files visible in the draft review pack.
-- Preserve one correction round and its reason, with the earlier revision available for comparison.
-- The combined candidate and fictional demonstration have passed recorded Windows checks; close final technical acceptance and clean-machine first use.
+- Map the smallest source and dependency boundary, with provenance, licences and required notices.
+- Start with one fictional PDF-and-checklist example that produces source-page references and machine-readable expected results.
+- Expand to three fictional packs and at least 12 documented checks for matches, missing or unreadable inputs and conflicts between declared values.
+- Record scoped Windows and Linux results, installation steps and limitations. Existing pilot checks do not certify a newly extracted package.
 
-**What progress looks like:** A single verified local package, a matching demonstration and a successful clean-machine installation.
+**What progress looks like:** A small reproducible package with documented outcomes and a clear licence and publication plan. The wider platform stays private; funding and release are not yet agreed.
 
 ## 03 · Make the first hour straightforward
 

@@ -2,10 +2,11 @@
 
 Last checked: 2026-10-17.
 
-The combined fictional pilot has completed automated Windows checks, and Windows remains the authoritative platform. Final technical acceptance remains open: the corrected candidate has not received an independent review, and its partial Linux/Docker verification has passed on the development machine as a partial platform check only. No release is authorized, and a public product download is not available.
+The combined fictional pilot has completed automated Windows checks, and Windows remains the authoritative platform. Final technical acceptance remains open: the corrected candidate has not received an independent review, and its partial Linux/Docker verification has passed on the development machine as a partial platform check only. No release is authorized, and a public product download is not available. The next planned milestone is a small offline evidence-checking kit built from existing capabilities. A FUTO microgrant application has been submitted; funding and eligibility are unconfirmed.
 
 ## Completed
 
+- [x] **FUTO microgrant application submitted** — A US$1,000 application was submitted on 17 October 2026 to support a small offline evidence-checking release. The proposed work covers packaging, fictional examples, documentation and verification. This records submission only: funding, eligibility and grant terms are unconfirmed.
 - [x] **Records and evidence foundations** — Records requests, response gaps, evidence search, source provenance and versioned dossier components are implemented in private development.
 - [x] **PDF review and correction workflow** — Source-page citations, explicit match and unread states, a correction round and preserved earlier revisions are implemented in the fictional pilot.
 - [x] **Combined Windows pilot** — Usability, packaging, source-wording and startup changes are combined in one candidate. Its recorded Windows suite completed with 6,332 tests passed and 424 skipped.
@@ -29,6 +30,7 @@ The combined fictional pilot has completed automated Windows checks, and Windows
 
 ## Next milestones
 
+- [ ] **Package a small offline evidence checker** — Planned, not started: define the smallest source and dependency boundary, check provenance and notices, then package one repeatable fictional example using existing checks. The proposed milestone expands this to three fictional document packs with at least 12 documented checks, expected results, installation guidance and recorded Windows/Linux runs. The scoped component is intended for open source after its licence and publication terms are agreed. The wider platform remains private; no product download is available.
 - [ ] **Finish verifying the repaired candidate** — What remains: the one open case of the footer-strip fix; and owner decisions on acceptance and release. Results will be recorded here only after they exist; none of this is acceptance or release.
 - [ ] **Verify workspace path safety on a successor candidate** — The corrected version of the path-safety change has been through the full Windows checks, the first-use run in an isolated, offline Windows sandbox and the Linux test run in a container on the development machine, and its results are recorded under Acceptance still open. It has had no independent review, and none of this is acceptance or release.
 - [ ] **Clean-machine first use** — Verify the accepted final package on a separate clean machine and record its first-use journey.
