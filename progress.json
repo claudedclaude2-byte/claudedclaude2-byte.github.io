@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "scope": "The combined fictional pilot has completed automated Windows checks, and Windows remains the authoritative platform. Final technical acceptance remains open: the corrected candidate has not received an independent review, and its partial Linux/Docker verification has passed on the development machine as a partial platform check only. No release is authorized, and a public product download is not available.",
   "groups": [
     {
@@ -66,7 +66,7 @@
         },
         {
           "title": "In progress: Path safety for workspace folders on Windows",
-          "detail": "The safeguard for long workspace folder paths on Windows has been made on a development copy of the pilot and frozen as a candidate: the pilot now says plainly, before any work starts, when a workspace folder is too long for the default Windows limit of 260 characters, and it cleans up only the leftover temporary folders that it can prove it created itself. The full Windows checks of that frozen candidate have completed on the development machine: its test suite ran with 8,301 tests passed, 472 skipped and 0 failed, and 563 of 563 deliberately introduced faults were caught by the tests. The first-use run in an isolated, offline Windows sandbox and the Linux test run come next. These checks use fictional data only; the change has had no independent review, and none of this is acceptance or release."
+          "detail": "The safeguard for long workspace folder paths on Windows has been made on a development copy of the pilot: the pilot now says plainly, before any work starts, when a workspace folder is too long for the default Windows limit of 260 characters, and it cleans up only the leftover temporary folders that it can prove it created itself. A simulation of Linux on the development machine showed that 12 of the new tests failed when run as on Linux because of how those tests were set up, so the tests were corrected; the pilot itself was not changed. On the corrected version the full Windows checks completed on the development machine: the test suite ran with 8,302 tests passed, 471 skipped and 0 failed, and 563 of 563 deliberately introduced faults were caught by the tests. Its first-use run in an isolated, offline Windows sandbox on the development machine ran the full 80-step plan: 78 steps passed, 2 did not apply and none failed; it covered offline setup, the fictional matter journey, the refusals for workspace folders that are too long, a delivery from a folder within the limit, a run stopped part-way on purpose, and uninstalling. Its Linux test run in a container on the development machine ran 139 of 171 test files, with 6,305 tests passed, 370 skipped and 0 failed; the other 32 files test behaviour that exists only on Windows, and 90 of 90 deliberately introduced faults were caught on Linux. On the version before the correction, two sandbox attempts did not finish and one failed a leftover-folder check that the test kit had not expected; only the test kit was corrected. A run stopped part-way can still leave a temporary working folder behind; the install guide documents this and the safeguard does not remove it. These runs used fictional data only and ran on the same machine and Windows build as the development work, and the sandbox guest wrote its own receipts, so this is not a separate clean machine. The change has had no independent review, and none of this is acceptance or release."
         },
         {
           "title": "Lint and security baseline",
@@ -92,7 +92,7 @@
         },
         {
           "title": "Verify workspace path safety on a successor candidate",
-          "detail": "The frozen candidate with the path-safety change goes through the first-use run in an isolated, offline Windows sandbox on the development machine, and then through the Linux test run in a container. Results will be recorded here only after they exist; none of this is acceptance or release."
+          "detail": "The corrected version of the path-safety change has been through the full Windows checks, the first-use run in an isolated, offline Windows sandbox and the Linux test run in a container on the development machine, and its results are recorded under Acceptance still open. It has had no independent review, and none of this is acceptance or release."
         },
         {
           "title": "Clean-machine first use",
