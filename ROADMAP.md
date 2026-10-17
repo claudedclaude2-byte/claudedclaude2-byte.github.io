@@ -38,6 +38,7 @@ Package a narrow part of the existing private pilot into a reproducible local ch
 
 - Map the smallest source and dependency boundary, with provenance, licences and required notices.
 - Start with one fictional PDF-and-checklist example that produces source-page references and machine-readable expected results.
+- Provide a Windows Setup.exe installer with the required runtime, a Start menu shortcut and an uninstaller that preserves user records; verify offline first use.
 - Expand to three fictional packs and at least 12 documented checks for matches, missing or unreadable inputs and conflicts between declared values.
 - Record scoped Windows and Linux results, installation steps and limitations. Existing pilot checks do not certify a newly extracted package.
 

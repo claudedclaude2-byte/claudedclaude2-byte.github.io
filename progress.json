@@ -91,6 +91,10 @@
       "title": "Next milestones",
       "items": [
         {
+          "title": "Windows Setup.exe installer",
+          "detail": "Planned, not built: a standard Windows installer for the private pilot/checker route, with its required runtime, a Start menu shortcut and an uninstaller. The intended first-use path needs no manual Python installation or terminal commands. Offline installation, launch and removal must be checked, and uninstalling must preserve user records. This packaging work does not imply a funded grant, an approved open-source boundary or an available download."
+        },
+        {
           "title": "Package a small offline evidence checker",
           "detail": "Planned, not started: define the smallest source and dependency boundary, check provenance and notices, then package one repeatable fictional example using existing checks. The proposed milestone expands this to three fictional document packs with at least 12 documented checks, expected results, installation guidance and recorded Windows/Linux runs. The scoped component is intended for open source after its licence and publication terms are agreed. The wider platform remains private; no product download is available."
         },
