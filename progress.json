@@ -82,7 +82,7 @@
         },
         {
           "title": "In progress: Windows Setup.exe installer",
-          "detail": "Work on a standard Windows Setup.exe installer for the private pilot and the planned offline checker is in progress. It is meant to bundle the required runtime, add a Start menu shortcut and include an uninstaller that keeps user records, so that first use needs no manual Python installation or terminal commands. It is not yet built or tested: offline installation, first start and removal still have to be checked, first on a development machine. The wider checker packaging remains planned, not started, under Next milestones. No public download is available. A submitted funding application does not mean funding has been awarded, and this packaging work does not imply an agreed open-source boundary or a release. None of this is acceptance or release."
+          "detail": "A Windows Setup.exe installer for the private pilot has been built and checked on a development machine. In an isolated, offline Windows sandbox on that machine, using fictional data only, 34 of 35 steps passed, 1 did not apply and none failed; they covered offline installation, a start from the Start menu, the fictional costs-record demonstration and uninstalling with the user's records kept. The sandbox ran on the same machine and Windows build as the development work and the guest wrote its own receipts, so this is not a separate clean machine. The installer has had no independent review, no public download is available, and none of this is acceptance or release."
         },
         {
           "title": "Customer requests and future versions",
