@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-18",
-  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Separate development branches now contain earlier chronology capacity refusal, preparation-attempt recovery, and customer planning with batch assignment, triage, current-version comparison and private handoff drafts. Next work is a source navigator for delivered revisions and frozen version plans that can be compared with later scope changes. Those two new assignments have not started. Final integration and Windows/Linux execution checks of the new work are deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
+  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Separate development branches now contain earlier chronology capacity refusal, preparation-attempt recovery, customer planning with private handoff drafts, and frozen version plans with scope-change comparisons. Next work is a source navigator for delivered revisions and making customer planning less dependent on Windows-only document services while preserving local request protections. Those two assignments have not started. Final integration and Windows/Linux execution checks of the new work are deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
   "groups": [
     {
       "id": "done",
@@ -103,6 +103,10 @@
         {
           "title": "Coded: planning triage and version handoff",
           "detail": "The customer-planning development branch now contains bounded version search, filters and pagination; batch target-version changes with a preview and all-or-nothing conflict checks; a triage overview; comparison of two current version scopes; private-by-default request briefs; and change-summary drafts. The existing data schema and released-version locks are preserved. Static checks were reported and tests were written, but the tests have not run. Integration and execution checks are deferred, and no independent review has been run. Downloads do not publish software or contact a customer; this is not acceptance or release."
+        },
+        {
+          "title": "Coded: frozen version plans and scope changes",
+          "detail": "The customer-planning development branch now contains complete version-plan snapshots, bounded to 100 requests and 256 KiB, strict checks when loading a snapshot, comparison with the current recorded scope, and a comparison report that refuses a stale current plan. Original feedback and customer references are excluded, incomplete snapshots are refused, and the existing database schema is preserved. An uploaded snapshot is not authenticated history or proof of implementation. Static checks were reported and tests were written, but the tests have not run. Integration and execution checks are deferred, and no independent review has been run. This is not acceptance or release."
         }
       ]
     },
@@ -139,8 +143,8 @@
           "detail": "Planned, not started: browse recorded source inventories and citation references in a delivered revision, view its recorded ISO-date chronology, and compare source inventories across the correction round. Keep original records unchanged and distinguish recorded source information from current verification. The assignment is prepared but has not been submitted or started; integration and execution checks remain deferred."
         },
         {
-          "title": "Next: frozen version plans and scope changes",
-          "detail": "Planned, not started: download a complete, bounded version-plan snapshot and compare it later with the current recorded scope, showing requests added or removed and planning fields changed. Keep private feedback and customer references out of the snapshot, refuse incomplete comparisons, and preserve the existing database schema. An uploaded snapshot is not authenticated history or proof of implementation. The assignment is prepared but has not been submitted or started; integration and execution checks remain deferred."
+          "title": "Next: customer planning across platforms",
+          "detail": "Planned, not started: make the customer-planning component less dependent on Windows-only document services while preserving the application's local request protections and its existing Windows integration. This prepares the planning workflow for separate platform checks; it does not establish Linux support or change the document-processing offer. The assignment is prepared but has not been submitted or started. Integration and Windows/Linux execution checks remain deferred."
         }
       ]
     }
