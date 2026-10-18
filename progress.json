@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-18",
-  "scope": "Earlier pilot versions completed automated Windows checks and partial Linux checks on the development machine. The current private Windows installer has recorded build, fictional demonstration and capacity results; its final Windows and Linux verification remains unfinished. Final technical acceptance remains open, and the current installer has not received an independent review. No release is authorized, and a public product download is not available. The next planned milestone is a small offline evidence-checking kit built from existing capabilities.",
+  "scope": "Current development priorities are integrating customer-request tracking and improving how the pilot handles a matter that exceeds its chronology limit. Windows and Linux verification of the resulting version is deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
   "groups": [
     {
       "id": "done",
@@ -82,7 +82,11 @@
         },
         {
           "title": "Customer requests and future versions",
-          "detail": "A local workflow is being developed to capture customer wishes, define acceptance criteria, prepare coding briefs and track improvements through planned versions and recorded releases. Verification and integration with the pilot remain in progress."
+          "detail": "Integration into the Windows pilot is in progress. The workflow captures customer feedback, acceptance criteria and coding briefs alongside planned versions and recorded deliveries. Verification of the combined version is deferred. Saving a record does not run code, publish software or contact a customer."
+        },
+        {
+          "title": "Earlier chronology capacity refusal",
+          "detail": "Implementation is in progress: stop reading further PDFs once the dated entries already extracted exceed the agreed chronology limit. Keep the existing 1,024-entry ceiling and record which documents were prepared and which remain unread. This is intended to avoid unnecessary work on later documents; the resulting behaviour and performance have not been verified."
         }
       ]
     },
