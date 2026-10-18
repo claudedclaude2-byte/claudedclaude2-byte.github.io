@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-18",
-  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Earlier chronology capacity refusal is coded on a separate development branch. Current work adds search, filters and version planning to the customer workspace. A preparation-attempts and recovery workflow is planned but has not started. Windows and Linux verification of these new changes is deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
+  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Earlier chronology capacity refusal and the customer planning workspace are coded on separate development branches. Next planning work covers batch version assignment, aggregate triage, version-scope comparison and local handoff downloads. A preparation-attempts and recovery workflow is also planned but has not started. Integration and Windows/Linux execution checks of the new planning work are deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
   "groups": [
     {
       "id": "done",
@@ -93,8 +93,8 @@
           "detail": "The private pilot now includes a local action to create a transcript anchor through the same writer used by the command-line workflow. This makes the existing preparation step available from the interface. Execution checks are deferred; the change does not establish the accuracy of a transcript or a release."
         },
         {
-          "title": "In progress: customer planning workspace",
-          "detail": "Coding has started for request search, status/priority/version filters and pagination, plus version detail pages and safe edits while a version is still planned. A local planning-brief download is also in scope, omitting original feedback quotes and customer references by default. Released versions stay locked, and recorded references do not become verified evidence. The new workflow has not yet been completed or checked."
+          "title": "Coded: customer planning workspace",
+          "detail": "A separate development branch now contains request search, status/priority/version filters and pagination, version detail pages, edits while a version is still planned, and a local planning-brief download. Original feedback quotes and customer references are omitted from that download by default. The implementation preserves the existing data schema and keeps released versions locked. Tests have been written but have not run; integration into the pilot and execution checks are deferred. Recorded references do not become verified evidence, and this is not a verified release."
         }
       ]
     },
@@ -129,6 +129,10 @@
         {
           "title": "Preparation attempts and safe recovery",
           "detail": "Planned, not started: show retained incomplete preparation attempts after restart, distinguish known failures from an unrecorded outcome, explain prepared and unread documents, and link back to the existing check-and-prepare flow. Add a local diagnostic download with private content excluded. There is no automatic retry, deletion or preparation cancellation. The coding assignment is prepared but has not been started."
+        },
+        {
+          "title": "Next: planning triage and version handoff",
+          "detail": "Planned, not started: batch assignment of requests to planned versions with conflict checks, aggregate triage, version-scope comparison and privacy-conscious local handoff downloads. Preserve the existing data schema and released-version locks. Integration and execution checks remain deferred; a planning download does not publish software or contact a customer."
         }
       ]
     }
