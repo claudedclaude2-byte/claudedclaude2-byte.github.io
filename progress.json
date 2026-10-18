@@ -164,7 +164,7 @@
         },
         {
           "title": "Next: findings and correction workbench",
-          "detail": "Add a bounded view of recorded statement and expected-record results, including items with no hits; focused item pages; conservative comparison across delivered revisions; and a private selected correction brief. These views use existing recorded results and do not rerun quotation checks, establish truth or alter evidence. The assignment has been submitted; startup verification is pending. Integration, tests and Linux execution remain deferred."
+          "detail": "Add a bounded view of recorded statement and expected-record results, including items with no hits; focused item pages; conservative comparison across delivered revisions; and a private selected correction brief. These views use existing recorded results and do not rerun quotation checks, establish truth or alter evidence. Local preparation has started; execution identity verification is pending before coding begins. Integration, tests and Linux execution remain deferred."
         }
       ]
     }
