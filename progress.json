@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-18",
-  "scope": "Current development priorities are integrating customer-request tracking and improving how the pilot handles a matter that exceeds its chronology limit. Windows and Linux verification of the resulting version is deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
+  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Earlier chronology capacity refusal is coded on a separate development branch. Current work adds search, filters and version planning to the customer workspace. A preparation-attempts and recovery workflow is planned but has not started. Windows and Linux verification of these new changes is deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
   "groups": [
     {
       "id": "done",
@@ -81,12 +81,20 @@
           "detail": "Work to finish the private Windows Setup.exe installer for a bounded customer evaluation by one operator, using fictional or non-confidential records only, is in progress. The owner chose to take the two Microsoft runtime files unmodified from the owner's own licensed Microsoft development software, which is now installed on the development machine; the installer's file check was corrected to accept the exact Microsoft signer name those files carry, and it still refuses unsigned, altered or non-Microsoft files. On the development machine a new build that takes those files was assembled and its own checks passed, including the fictional demonstration, where 51 of 51 checks agreed. On that machine, in an isolated, offline Windows sandbox, using fictional data only, 48 of 50 steps of the build's check passed, 2 did not apply and none failed; a program, not a person, pressed the buttons, and the sandbox ran on the same machine, so it is not a separate clean machine. The sandbox check's own freshness test did not pass after the machine's restart, so that run is recorded as not clean. A capacity measurement of the same build with generated fictional documents passed all 11 of its cases, and on Windows the 8,902 tests of the test gates passed with none failing. The Linux check of the installer's tests has not run: the attempt was stopped for lack of free memory on the development machine. Decisions and conditions for the owner remain open, including confirming the licence terms for those files, and until they are met the installer is not handed out. The installer has had no independent review, no software has been handed out, no public download is available, and none of this is acceptance or release."
         },
         {
-          "title": "Customer requests and future versions",
-          "detail": "Integration into the Windows pilot is in progress. The workflow captures customer feedback, acceptance criteria and coding briefs alongside planned versions and recorded deliveries. Verification of the combined version is deferred. Saving a record does not run code, publish software or contact a customer."
+          "title": "Coded: customer requests and future versions",
+          "detail": "The local tracker is integrated into the private pilot. It captures customer feedback, acceptance criteria and coding briefs alongside planned versions and operator-recorded deliveries. Execution checks of this integration are deferred. Saving a record does not run code, verify a release, publish software or contact a customer."
         },
         {
-          "title": "Earlier chronology capacity refusal",
-          "detail": "Implementation is in progress: stop reading further PDFs once the dated entries already extracted exceed the agreed chronology limit. Keep the existing 1,024-entry ceiling and record which documents were prepared and which remain unread. This is intended to avoid unnecessary work on later documents; the resulting behaviour and performance have not been verified."
+          "title": "Coded: earlier chronology capacity refusal",
+          "detail": "A separate development branch now stops before reading later PDFs once dated entries extracted from fully prepared documents exceed the existing 1,024-entry ceiling. It records prepared and unprepared documents, with the count labelled as a lower bound for the whole matter. The document that crosses the bound is still fully read. Integration and execution checks are deferred; no performance or release claim is made."
+        },
+        {
+          "title": "Coded: transcript anchors in the local interface",
+          "detail": "The private pilot now includes a local action to create a transcript anchor through the same writer used by the command-line workflow. This makes the existing preparation step available from the interface. Execution checks are deferred; the change does not establish the accuracy of a transcript or a release."
+        },
+        {
+          "title": "In progress: customer planning workspace",
+          "detail": "Coding has started for request search, status/priority/version filters and pagination, plus version detail pages and safe edits while a version is still planned. A local planning-brief download is also in scope, omitting original feedback quotes and customer references by default. Released versions stay locked, and recorded references do not become verified evidence. The new workflow has not yet been completed or checked."
         }
       ]
     },
@@ -117,6 +125,10 @@
         {
           "title": "Prepare a runnable release",
           "detail": "Close the remaining technical and release obligations before offering a public product download."
+        },
+        {
+          "title": "Preparation attempts and safe recovery",
+          "detail": "Planned, not started: show retained incomplete preparation attempts after restart, distinguish known failures from an unrecorded outcome, explain prepared and unread documents, and link back to the existing check-and-prepare flow. Add a local diagnostic download with private content excluded. There is no automatic retry, deletion or preparation cancellation. The coding assignment is prepared but has not been started."
         }
       ]
     }
