@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-18",
-  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Separate development branches now contain earlier chronology capacity refusal, preparation-attempt recovery, customer planning with private handoff drafts, frozen version plans with scope-change comparisons, and a planning component separated from Windows-only document services. Next work is a source navigator for delivered revisions and recovery of unsaved customer-request and release-form text when an edit is refused. Those two assignments have not started. Final integration and Windows/Linux execution checks of the new work are deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
+  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Separate development branches now contain earlier chronology capacity refusal, preparation-attempt recovery, source navigation for delivered revisions, and customer-planning tools including private drafts, frozen plans and a component separated from Windows-only document services. Next work adds linked customer feedback and recorded planning history, recovery of refused form drafts, and a matter-preparation workbench. Those new assignments have not been submitted or started. Final integration and Windows/Linux execution checks of the new work are deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
   "groups": [
     {
       "id": "done",
@@ -111,6 +111,10 @@
         {
           "title": "Coded: customer planning across platforms",
           "detail": "The customer-planning development branch now separates its planning component from Windows-only document services while sharing the existing local request protections and preserving the Windows application integration. Source and static checks were reported and new regression cases were written. The full application, separate planning component and Linux execution checks have not run, so this does not establish Linux support. Integration and execution verification are deferred, and no independent review has been run. The document-processing offer is unchanged; this is not acceptance or release."
+        },
+        {
+          "title": "Coded: source navigator for delivered revisions",
+          "detail": "A separate development branch now contains bounded browsing of recorded source inventories and citation references in a delivered revision, its recorded date chronology, and source-inventory comparison across the correction round. Original records remain unchanged, and recorded source information is kept distinct from current verification. Tests were written but have not run; final integration and execution checks are deferred. This is not acceptance or release."
         }
       ]
     },
@@ -143,12 +147,12 @@
           "detail": "Close the remaining technical and release obligations before offering a public product download."
         },
         {
-          "title": "Next: source navigator for delivered revisions",
-          "detail": "Planned, not started: browse recorded source inventories and citation references in a delivered revision, view its recorded ISO-date chronology, and compare source inventories across the correction round. Keep original records unchanged and distinguish recorded source information from current verification. The assignment is prepared but has not been submitted or started; integration and execution checks remain deferred."
+          "title": "Next: feedback follow-ups and planning history",
+          "detail": "Planned, not started: preserve unsaved request and release-form text after refused edits, link newly captured feedback to an earlier request without changing the original, and keep a bounded, readable record of later planning changes with private local downloads. Preserve existing data and release locks; do not invent earlier history, automatically merge drafts, restore records or record a release. Local history is not independent verification. The assignment is prepared but has not been submitted or started; integration and execution checks remain deferred."
         },
         {
-          "title": "Next: recover unsaved planning form text",
-          "detail": "Planned, not started: preserve unsaved customer-request and release-form text when a concurrent change or recorded release causes an edit to be refused. Show the current saved record alongside the submitted fields and offer a private local draft download. Do not automatically merge, save or record a release. The assignment is prepared but has not been submitted or started; integration and execution checks remain deferred."
+          "title": "Next: matter-preparation workbench",
+          "detail": "Planned, not started: add a bounded searchable matter list, a readable view of saved scope, previews of preparation and correction folders, an explanation of bundle order, and a private preparation summary. These views explain what the existing preparation flow will use; its checks and preparation remain the authority. Do not change source documents, saved data formats or preparation results. The assignment is prepared but has not been submitted or started; integration and execution checks remain deferred."
         }
       ]
     }
