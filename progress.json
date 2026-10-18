@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-18",
-  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Separate development branches contain earlier chronology capacity refusal, preparation-attempt recovery, delivered-source navigation and customer-planning tools including private drafts, frozen plans and a component separated from Windows-only document services. Feedback follow-ups, recorded planning history and the matter-preparation workbench are now coded. Customer prerequisite planning has started; findings and correction workbench is next. Final integration and Windows/Linux execution checks of the new work are deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
+  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Separate development branches contain earlier chronology capacity refusal, preparation-attempt recovery, delivered-source navigation and customer-planning tools including private drafts, frozen plans and a component separated from Windows-only document services. Feedback follow-ups, recorded planning history and the matter-preparation workbench are now coded. Customer prerequisite planning has started; coding has started on the findings and correction workbench. Final integration and Windows/Linux execution checks of the new work are deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
   "groups": [
     {
       "id": "done",
@@ -131,6 +131,10 @@
         {
           "title": "In progress: customer prerequisite planning",
           "detail": "Add explicit prerequisites between customer requests, refuse circular links, show version-level prerequisite context and affected requests, include that context in reassignment previews, and offer a private planning brief. Prerequisites remain advisory: they do not automatically change request status, version scope or release records. Work has started; implementation is unfinished. Integration, tests and Linux execution remain deferred."
+        },
+        {
+          "title": "In progress: findings and correction workbench",
+          "detail": "Implementation has started for a bounded view of recorded statement and expected-record results, including items with no hits; focused item pages; conservative comparison across delivered revisions; and a private selected correction brief. These views use existing recorded results and do not rerun quotation checks, establish truth or alter evidence. The work is unfinished. Integration, tests and Linux execution remain deferred."
         }
       ]
     },
@@ -161,10 +165,6 @@
         {
           "title": "Prepare a runnable release",
           "detail": "Close the remaining technical and release obligations before offering a public product download."
-        },
-        {
-          "title": "Next: findings and correction workbench",
-          "detail": "Add a bounded view of recorded statement and expected-record results, including items with no hits; focused item pages; conservative comparison across delivered revisions; and a private selected correction brief. These views use existing recorded results and do not rerun quotation checks, establish truth or alter evidence. Local preparation has started; execution identity verification is pending before coding begins. Integration, tests and Linux execution remain deferred."
         }
       ]
     }
