@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-18",
-  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Separate development branches now contain earlier chronology capacity refusal, preparation-attempt recovery, source navigation for delivered revisions, and customer-planning tools including private drafts, frozen plans and a component separated from Windows-only document services. Next work adds linked customer feedback and recorded planning history, recovery of refused form drafts, and a matter-preparation workbench. Those new assignments have not been submitted or started. Final integration and Windows/Linux execution checks of the new work are deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
+  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Separate development branches now contain earlier chronology capacity refusal, preparation-attempt recovery, source navigation for delivered revisions, and customer-planning tools including private drafts, frozen plans and a component separated from Windows-only document services. Recovery of unsaved form drafts is also coded on the customer-planning branch. Work has started on linked customer feedback and recorded planning history. The last confirmed workbench checkpoint is startup and interface preparation. Final integration and Windows/Linux execution checks of the new work are deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
   "groups": [
     {
       "id": "done",
@@ -115,6 +115,18 @@
         {
           "title": "Coded: source navigator for delivered revisions",
           "detail": "A separate development branch now contains bounded browsing of recorded source inventories and citation references in a delivered revision, its recorded date chronology, and source-inventory comparison across the correction round. Original records remain unchanged, and recorded source information is kept distinct from current verification. Tests were written but have not run; final integration and execution checks are deferred. This is not acceptance or release."
+        },
+        {
+          "title": "In progress: feedback follow-ups and planning history",
+          "detail": "Work has started on linking newly captured feedback to an earlier request without changing the original, and on a bounded, readable record of later planning changes with private local downloads. Existing data and release locks must be preserved, with no invented earlier history, automatic restoration or recorded release. Local history is not independent verification. Implementation is unfinished; integration and execution checks remain deferred."
+        },
+        {
+          "title": "Coded: recovery of unsaved form drafts",
+          "detail": "The customer-planning development branch now preserves unsaved request and release-form text when an edit is refused, shows the submitted values alongside the current saved values, and offers a private local draft download. Drafts are not automatically merged, saved or released. Tests have been written but have not run; final integration and execution checks remain deferred. This is not acceptance or release."
+        },
+        {
+          "title": "In progress: matter-preparation workbench",
+          "detail": "The last confirmed checkpoint is startup and interface preparation for a bounded searchable matter list, a readable view of saved scope, previews of preparation and correction folders, an explanation of bundle order, and a private preparation summary. These views are intended to explain what the existing preparation flow will use; its checks and preparation remain the authority. Implementation and tests were unfinished at that checkpoint. Final integration and execution checks remain deferred."
         }
       ]
     },
@@ -145,14 +157,6 @@
         {
           "title": "Prepare a runnable release",
           "detail": "Close the remaining technical and release obligations before offering a public product download."
-        },
-        {
-          "title": "Next: feedback follow-ups and planning history",
-          "detail": "Planned, not started: preserve unsaved request and release-form text after refused edits, link newly captured feedback to an earlier request without changing the original, and keep a bounded, readable record of later planning changes with private local downloads. Preserve existing data and release locks; do not invent earlier history, automatically merge drafts, restore records or record a release. Local history is not independent verification. The assignment is prepared but has not been submitted or started; integration and execution checks remain deferred."
-        },
-        {
-          "title": "Next: matter-preparation workbench",
-          "detail": "Planned, not started: add a bounded searchable matter list, a readable view of saved scope, previews of preparation and correction folders, an explanation of bundle order, and a private preparation summary. These views explain what the existing preparation flow will use; its checks and preparation remain the authority. Do not change source documents, saved data formats or preparation results. The assignment is prepared but has not been submitted or started; integration and execution checks remain deferred."
         }
       ]
     }
