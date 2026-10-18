@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-18",
-  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Separate development branches now contain earlier chronology capacity refusal, preparation-attempt recovery, source navigation for delivered revisions, and customer-planning tools including private drafts, frozen plans and a component separated from Windows-only document services. Recovery of unsaved form drafts is also coded on the customer-planning branch. Work has started on linked customer feedback and recorded planning history. The last confirmed workbench checkpoint is startup and interface preparation. Final integration and Windows/Linux execution checks of the new work are deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
+  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Separate development branches contain earlier chronology capacity refusal, preparation-attempt recovery, delivered-source navigation and customer-planning tools including private drafts, frozen plans and a component separated from Windows-only document services. Feedback follow-ups, recorded planning history and the matter-preparation workbench are now coded. Customer prerequisite planning has started; findings and correction workbench is next. Final integration and Windows/Linux execution checks of the new work are deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
   "groups": [
     {
       "id": "done",
@@ -117,16 +117,20 @@
           "detail": "A separate development branch now contains bounded browsing of recorded source inventories and citation references in a delivered revision, its recorded date chronology, and source-inventory comparison across the correction round. Original records remain unchanged, and recorded source information is kept distinct from current verification. Tests were written but have not run; final integration and execution checks are deferred. This is not acceptance or release."
         },
         {
-          "title": "In progress: feedback follow-ups and planning history",
-          "detail": "Work has started on linking newly captured feedback to an earlier request without changing the original, and on a bounded, readable record of later planning changes with private local downloads. Existing data and release locks must be preserved, with no invented earlier history, automatic restoration or recorded release. Local history is not independent verification. Implementation is unfinished; integration and execution checks remain deferred."
+          "title": "Coded: feedback follow-ups and planning history",
+          "detail": "The customer-planning development branch now links new feedback to an earlier request, records later planning changes in a bounded history, and offers private local history downloads. Existing records are preserved; earlier events are not invented. These are recorded planning changes, not independent evidence. Tests have been written but have not run; final integration and execution checks are deferred. No independent review has been run, and this is not acceptance or release."
         },
         {
           "title": "Coded: recovery of unsaved form drafts",
           "detail": "The customer-planning development branch now preserves unsaved request and release-form text when an edit is refused, shows the submitted values alongside the current saved values, and offers a private local draft download. Drafts are not automatically merged, saved or released. Tests have been written but have not run; final integration and execution checks remain deferred. This is not acceptance or release."
         },
         {
-          "title": "In progress: matter-preparation workbench",
-          "detail": "The last confirmed checkpoint is startup and interface preparation for a bounded searchable matter list, a readable view of saved scope, previews of preparation and correction folders, an explanation of bundle order, and a private preparation summary. These views are intended to explain what the existing preparation flow will use; its checks and preparation remain the authority. Implementation and tests were unfinished at that checkpoint. Final integration and execution checks remain deferred."
+          "title": "Coded: matter-preparation workbench",
+          "detail": "A separate development branch now contains a bounded searchable matter list, a readable saved-scope view with comparison to a delivered revision, checked-folder filters that retain blockers, a correction-folder preview, an explanation of bundle order, and private JSON or text preparation summaries. The existing checks and preparation flow remain the authority. Static checks were recorded and tests were written, but tests have not run. Final integration and execution checks are deferred; this is not acceptance or release."
+        },
+        {
+          "title": "In progress: customer prerequisite planning",
+          "detail": "Add explicit prerequisites between customer requests, refuse circular links, show version-level prerequisite context and affected requests, include that context in reassignment previews, and offer a private planning brief. Prerequisites remain advisory: they do not automatically change request status, version scope or release records. Work has started; implementation is unfinished. Integration, tests and Linux execution remain deferred."
         }
       ]
     },
@@ -157,6 +161,10 @@
         {
           "title": "Prepare a runnable release",
           "detail": "Close the remaining technical and release obligations before offering a public product download."
+        },
+        {
+          "title": "Next: findings and correction workbench",
+          "detail": "Add a bounded view of recorded statement and expected-record results, including items with no hits; focused item pages; conservative comparison across delivered revisions; and a private selected correction brief. These views use existing recorded results and do not rerun quotation checks, establish truth or alter evidence. Local preparation has started; execution identity verification is pending before coding begins. Integration, tests and Linux execution remain deferred."
         }
       ]
     }
