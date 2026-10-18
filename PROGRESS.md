@@ -2,11 +2,10 @@
 
 Last checked: 2026-10-18.
 
-The combined fictional pilot has completed automated Windows checks, and Windows remains the authoritative platform. Final technical acceptance remains open: the corrected candidate has not received an independent review, and its partial Linux/Docker verification has passed on the development machine as a partial platform check only. No release is authorized, and a public product download is not available. The next planned milestone is a small offline evidence-checking kit built from existing capabilities. A FUTO microgrant application has been submitted; funding and eligibility are unconfirmed.
+Earlier pilot versions completed automated Windows checks and partial Linux checks on the development machine. The current private Windows installer has recorded build, fictional demonstration and capacity results; its final Windows and Linux verification remains unfinished. Final technical acceptance remains open, and the current installer has not received an independent review. No release is authorized, and a public product download is not available. The next planned milestone is a small offline evidence-checking kit built from existing capabilities.
 
 ## Completed
 
-- [x] **FUTO microgrant application submitted** — A US$1,000 application was submitted on 17 October 2026 to support a small offline evidence-checking release. The proposed work covers packaging, fictional examples, documentation and verification. This records submission only: funding, eligibility and grant terms are unconfirmed.
 - [x] **Records and evidence foundations** — Records requests, response gaps, evidence search, source provenance and versioned dossier components are implemented in private development.
 - [x] **PDF review and correction workflow** — Source-page citations, explicit match and unread states, a correction round and preserved earlier revisions are implemented in the fictional pilot.
 - [x] **Combined Windows pilot** — Usability, packaging, source-wording and startup changes are combined in one candidate. Its recorded Windows suite completed with 6,332 tests passed and 424 skipped.
