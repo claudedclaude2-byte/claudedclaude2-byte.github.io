@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-18",
-  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Earlier chronology capacity refusal and the customer planning workspace are coded on separate development branches. Next planning work covers batch version assignment, aggregate triage, version-scope comparison and local handoff downloads. A preparation-attempts and recovery workflow is also planned but has not started. Integration and Windows/Linux execution checks of the new planning work are deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
+  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Earlier chronology capacity refusal and the customer planning workspace are coded on separate development branches. Next planning work covers batch version assignment, aggregate triage, version-scope comparison and local handoff downloads. A preparation-attempts and recovery workflow is also coded on a separate development branch. Final integration and Windows/Linux execution checks of the new planning and recovery work are deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
   "groups": [
     {
       "id": "done",
@@ -95,6 +95,10 @@
         {
           "title": "Coded: customer planning workspace",
           "detail": "A separate development branch now contains request search, status/priority/version filters and pagination, version detail pages, edits while a version is still planned, and a local planning-brief download. Original feedback quotes and customer references are omitted from that download by default. The implementation preserves the existing data schema and keeps released versions locked. Tests have been written but have not run; integration into the pilot and execution checks are deferred. Recorded references do not become verified evidence, and this is not a verified release."
+        },
+        {
+          "title": "Coded: preparation attempts and safe recovery",
+          "detail": "A separate development branch now contains a bounded view of retained incomplete preparation attempts, including after restart, a Not delivered detail page, safe links back to the existing check-and-prepare flow, and a sanitized local JSON diagnostic download. It distinguishes known failures from an unrecorded outcome and reports available prepared and unread document information. There is no automatic retry, deletion or preparation cancellation. Tests have been written but have not run; final integration and execution checks are deferred. This is not a verified release."
         }
       ]
     },
@@ -125,10 +129,6 @@
         {
           "title": "Prepare a runnable release",
           "detail": "Close the remaining technical and release obligations before offering a public product download."
-        },
-        {
-          "title": "Preparation attempts and safe recovery",
-          "detail": "Planned, not started: show retained incomplete preparation attempts after restart, distinguish known failures from an unrecorded outcome, explain prepared and unread documents, and link back to the existing check-and-prepare flow. Add a local diagnostic download with private content excluded. There is no automatic retry, deletion or preparation cancellation. The coding assignment is prepared but has not been started."
         },
         {
           "title": "Next: planning triage and version handoff",
