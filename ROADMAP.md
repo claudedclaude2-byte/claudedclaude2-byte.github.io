@@ -11,7 +11,7 @@ A complete investigation workbench: connect records requests, documents, source-
 | Stage | Status | Outcome |
 | --- | --- | --- |
 | 01 · The evidence foundation | Built in private development | Bring these existing components together around a clear, dependable review journey. |
-| 02 · A small offline evidence checker | Next: planned, not started | A small reproducible package with documented outcomes and a clear licence and publication plan. The wider platform stays private; funding and release are not yet agreed. |
+| 02 · A small offline evidence checker | Next: planned, not started | A small reproducible package with documented outcomes and a clear licence and publication plan. The wider platform stays private; release is not yet agreed. |
 | 03 · Make the first hour straightforward | Next | A new operator can prepare, inspect, correct and review a fictional case with clear guidance. |
 | 04 · Give reviewers a richer workbench | Planned direction | Each addition solves an observed review problem while preserving source and revision traceability. |
 | 05 · Connect people and existing workflows | Longer-term ambition | A partner evaluation demonstrates a useful fit, with agreed data handling, access and responsibilities. |
@@ -34,7 +34,7 @@ The core pieces already exist: records workflows, evidence search, provenance, c
 
 **Next: planned, not started**
 
-Package a narrow part of the existing private pilot into a reproducible local checker. A US$1,000 FUTO microgrant application has been submitted; funding and eligibility are unconfirmed.
+Package a narrow part of the existing private pilot into a reproducible local checker.
 
 - Map the smallest source and dependency boundary, with provenance, licences and required notices.
 - Start with one fictional PDF-and-checklist example that produces source-page references and machine-readable expected results.
@@ -42,7 +42,7 @@ Package a narrow part of the existing private pilot into a reproducible local ch
 - Expand to three fictional packs and at least 12 documented checks for matches, missing or unreadable inputs and conflicts between declared values.
 - Record scoped Windows and Linux results, installation steps and limitations. Existing pilot checks do not certify a newly extracted package.
 
-**What progress looks like:** A small reproducible package with documented outcomes and a clear licence and publication plan. The wider platform stays private; funding and release are not yet agreed.
+**What progress looks like:** A small reproducible package with documented outcomes and a clear licence and publication plan. The wider platform stays private; release is not yet agreed.
 
 ## 03 · Make the first hour straightforward
 
@@ -106,4 +106,4 @@ Document-preparation firms, records-access practitioners, research teams and evi
 
 The implementation remains private. The combined local PDF pilot has recorded Windows checks; final technical acceptance and a public runnable release are still ahead. Team access, a hosted workspace and deeper retrieval are future directions, not current services.
 
-The pilot currently handles one question, up to 6 born-digital PDFs, 20 total pages and one correction round. Its checks support source inspection; people assess meaning and make review decisions.
+The private Windows business-evaluation profile handles one question, up to 25 born-digital PDFs, 250 pages in total and 100 pages per PDF, with one correction round. Files are limited to 10 MiB each and 64 MiB in total. These bounds were measured with generated fictional inputs on the development machine; they do not establish customer accuracy, operator time, acceptance or release. The smaller demonstration profile remains 6 PDFs, 20 pages in total and 10 pages per PDF. Its checks support source inspection; people assess meaning and make review decisions.
