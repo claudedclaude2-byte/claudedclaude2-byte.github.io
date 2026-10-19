@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-18",
-  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Separate development branches contain earlier chronology capacity refusal, preparation-attempt recovery, delivered-source navigation and customer-planning tools including private drafts, frozen plans and a component separated from Windows-only document services. Feedback follow-ups, recorded planning history and the matter-preparation workbench are now coded. Customer prerequisite planning has started; coding has started on the findings and correction workbench. Final integration and Windows/Linux execution checks of the new work are deferred. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
+  "updated": "2026-10-19",
+  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Separate development branches contain chronology capacity refusal, preparation-attempt recovery, delivered-source navigation, customer-planning tools, feedback follow-ups, planning history and a matter-preparation workbench. Customer prerequisite planning and the findings/correction workbench are now coded. Some focused customer-planning checks passed on a prior candidate, while broader Windows checks stopped on test-setup errors; no overall verification is claimed. Private tracker backup work has started. A scanned-page work queue is assigned, with implementation still awaiting confirmation. Both coding jobs must finish before combined integration and Windows/Linux verification. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
   "groups": [
     {
       "id": "done",
@@ -94,7 +94,7 @@
         },
         {
           "title": "Coded: customer planning workspace",
-          "detail": "A separate development branch now contains request search, status/priority/version filters and pagination, version detail pages, edits while a version is still planned, and a local planning-brief download. Original feedback quotes and customer references are omitted from that download by default. The implementation preserves the existing data schema and keeps released versions locked. Tests have been written but have not run; integration into the pilot and execution checks are deferred. Recorded references do not become verified evidence, and this is not a verified release."
+          "detail": "A separate development branch now contains request search, status/priority/version filters and pagination, version detail pages, edits while a version is still planned, and a local planning-brief download. Original feedback quotes and customer references are omitted from that download by default. The implementation preserves the existing data schema and keeps released versions locked. At this coding checkpoint, tests had been written but had not run; integration into the pilot and execution checks are deferred. Recorded references do not become verified evidence, and this is not a verified release."
         },
         {
           "title": "Coded: preparation attempts and safe recovery",
@@ -102,15 +102,15 @@
         },
         {
           "title": "Coded: planning triage and version handoff",
-          "detail": "The customer-planning development branch now contains bounded version search, filters and pagination; batch target-version changes with a preview and all-or-nothing conflict checks; a triage overview; comparison of two current version scopes; private-by-default request briefs; and change-summary drafts. The existing data schema and released-version locks are preserved. Static checks were reported and tests were written, but the tests have not run. Integration and execution checks are deferred, and no independent review has been run. Downloads do not publish software or contact a customer; this is not acceptance or release."
+          "detail": "The customer-planning development branch now contains bounded version search, filters and pagination; batch target-version changes with a preview and all-or-nothing conflict checks; a triage overview; comparison of two current version scopes; private-by-default request briefs; and change-summary drafts. The existing data schema and released-version locks are preserved. At this coding checkpoint, static checks were reported and tests were written but not run. Integration and execution checks are deferred, and no independent review has been run. Downloads do not publish software or contact a customer; this is not acceptance or release."
         },
         {
           "title": "Coded: frozen version plans and scope changes",
-          "detail": "The customer-planning development branch now contains complete version-plan snapshots, bounded to 100 requests and 256 KiB, strict checks when loading a snapshot, comparison with the current recorded scope, and a comparison report that refuses a stale current plan. Original feedback and customer references are excluded, incomplete snapshots are refused, and the existing database schema is preserved. An uploaded snapshot is not authenticated history or proof of implementation. Static checks were reported and tests were written, but the tests have not run. Integration and execution checks are deferred, and no independent review has been run. This is not acceptance or release."
+          "detail": "The customer-planning development branch now contains complete version-plan snapshots, bounded to 100 requests and 256 KiB, strict checks when loading a snapshot, comparison with the current recorded scope, and a comparison report that refuses a stale current plan. Original feedback and customer references are excluded, incomplete snapshots are refused, and the existing database schema is preserved. An uploaded snapshot is not authenticated history or proof of implementation. At this coding checkpoint, static checks were reported and tests were written but not run. Integration and execution checks are deferred, and no independent review has been run. This is not acceptance or release."
         },
         {
           "title": "Coded: customer planning across platforms",
-          "detail": "The customer-planning development branch now separates its planning component from Windows-only document services while sharing the existing local request protections and preserving the Windows application integration. Source and static checks were reported and new regression cases were written. The full application, separate planning component and Linux execution checks have not run, so this does not establish Linux support. Integration and execution verification are deferred, and no independent review has been run. The document-processing offer is unchanged; this is not acceptance or release."
+          "detail": "The customer-planning development branch now separates its planning component from Windows-only document services while sharing the existing local request protections and preserving the Windows application integration. Source and static checks were reported and new regression cases were written. Full-application and Linux verification were deferred at this coding checkpoint; this does not establish Linux support. Integration and execution verification are deferred, and no independent review has been run. The document-processing offer is unchanged; this is not acceptance or release."
         },
         {
           "title": "Coded: source navigator for delivered revisions",
@@ -118,23 +118,27 @@
         },
         {
           "title": "Coded: feedback follow-ups and planning history",
-          "detail": "The customer-planning development branch now links new feedback to an earlier request, records later planning changes in a bounded history, and offers private local history downloads. Existing records are preserved; earlier events are not invented. These are recorded planning changes, not independent evidence. Tests have been written but have not run; final integration and execution checks are deferred. No independent review has been run, and this is not acceptance or release."
+          "detail": "The customer-planning development branch now links new feedback to an earlier request, records later planning changes in a bounded history, and offers private local history downloads. Existing records are preserved; earlier events are not invented. These are recorded planning changes, not independent evidence. At this coding checkpoint, tests had been written but had not run; final integration and execution checks are deferred. No independent review has been run, and this is not acceptance or release."
         },
         {
           "title": "Coded: recovery of unsaved form drafts",
-          "detail": "The customer-planning development branch now preserves unsaved request and release-form text when an edit is refused, shows the submitted values alongside the current saved values, and offers a private local draft download. Drafts are not automatically merged, saved or released. Tests have been written but have not run; final integration and execution checks remain deferred. This is not acceptance or release."
+          "detail": "The customer-planning development branch now preserves unsaved request and release-form text when an edit is refused, shows the submitted values alongside the current saved values, and offers a private local draft download. Drafts are not automatically merged, saved or released. At this coding checkpoint, tests had been written but had not run; final integration and execution checks remain deferred. This is not acceptance or release."
         },
         {
           "title": "Coded: matter-preparation workbench",
           "detail": "A separate development branch now contains a bounded searchable matter list, a readable saved-scope view with comparison to a delivered revision, checked-folder filters that retain blockers, a correction-folder preview, an explanation of bundle order, and private JSON or text preparation summaries. The existing checks and preparation flow remain the authority. Static checks were recorded and tests were written, but tests have not run. Final integration and execution checks are deferred; this is not acceptance or release."
         },
         {
-          "title": "In progress: customer prerequisite planning",
-          "detail": "Add explicit prerequisites between customer requests, refuse circular links, show version-level prerequisite context and affected requests, include that context in reassignment previews, and offer a private planning brief. Prerequisites remain advisory: they do not automatically change request status, version scope or release records. Work has started; implementation is unfinished. Integration, tests and Linux execution remain deferred."
+          "title": "Coded: customer prerequisite planning",
+          "detail": "The customer-planning branch now records explicit prerequisites between requests, refuses circular links, shows affected requests and version context, includes prerequisites in reassignment previews, and offers a private planning brief. Prerequisites remain advisory and do not automatically change request status, version scope or release records. Focused checks passed on the prior candidate; a broader check stopped on two Windows test-setup errors. Final combined integration and execution checks remain incomplete. This is not acceptance or release."
         },
         {
-          "title": "In progress: findings and correction workbench",
-          "detail": "Implementation has started for a bounded view of recorded statement and expected-record results, including items with no hits; focused item pages; conservative comparison across delivered revisions; and a private selected correction brief. These views use existing recorded results and do not rerun quotation checks, establish truth or alter evidence. The work is unfinished. Integration, tests and Linux execution remain deferred."
+          "title": "Coded: findings and correction workbench",
+          "detail": "The development branch now contains a bounded view of recorded statement and expected-record results, including items with no hits; focused item pages; conservative comparison across delivered revisions; and private selected correction briefs. Current revision state is kept separate from recorded results. These views do not rerun quotation checks, establish truth or alter evidence. Static checks were recorded and tests were written, but tests have not run. Final combined integration, Windows and Linux execution checks remain deferred."
+        },
+        {
+          "title": "In progress: private tracker backup and recovery guidance",
+          "detail": "Work has started on a consistent private backup of the complete customer tracker, clear version-compatibility information, and read-only inspection of a backup before manual recovery. This includes recorded feedback, links and planning history; it is private data, not a sanitized planning brief. The work will not restore over a live tracker or upload records. Coding is unfinished. Combined integration and verification will begin only after both current coding jobs finish and release their work."
         }
       ]
     },
@@ -165,6 +169,10 @@
         {
           "title": "Prepare a runnable release",
           "detail": "Close the remaining technical and release obligations before offering a public product download."
+        },
+        {
+          "title": "Next: scanned-page work queue and transcript navigation",
+          "detail": "Add bounded matter and document queues for scanned pages, filters for recorded page states, safe links back to a filtered list, preserved fields when an existing action is refused, and a private selected-work summary. Existing OCR, transcript corrections and individual confirmation rules remain the authority. The assignment is prepared and local startup files are present; implementation has not yet been confirmed. Product tests and combined Windows/Linux verification are deferred until both coding jobs finish."
         }
       ]
     }
