@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-20",
-  "scope": "Combined native evaluation proof is now in progress. The new prerequisite-snapshot coding checkpoint is complete, and the resumed workspace dashboard has passed its 473-test native suite; its browser correction rerun and final integration remain open. The job will freeze one build and retain evidence for a narrow fictional evaluation. Earlier Windows and Linux results apply to their recorded checkpoint, not automatically to these new changes. Docker, Windows Sandbox and Linux verification are deferred for this job. The earlier same-host sandbox freshness failure, missing independent-review verdict and separate clean-machine obligation remain explicit. Acceptance and release are open; no public product download is available.",
+  "scope": "Combined native evaluation proof is now in progress. The new prerequisite-snapshot coding checkpoint is complete, and the resumed workspace dashboard has passed its 473-test native suite and corrected 38-check browser journey. Final application checks, integration and installed-build proof remain open. The job will freeze one build and retain evidence for a narrow fictional evaluation. Earlier Windows and Linux results apply to their recorded checkpoint, not automatically to these new changes. Docker, Windows Sandbox and Linux verification are deferred for this job. The earlier same-host sandbox freshness failure, missing independent-review verdict and separate clean-machine obligation remain explicit. Acceptance and release are open; no public product download is available.",
   "groups": [
     {
       "id": "done",
@@ -158,7 +158,7 @@
         },
         {
           "title": "In progress: workspace scanned-page work dashboard",
-          "detail": "Work has resumed on the bounded read-only dashboard and queue-context corrections. The current development snapshot passed 473 native dashboard and queue tests. The earlier browser journey had two failed navigation checks; a passing rerun after the corrections and the final integration checkpoint are still required. Simulated recognition in this journey does not establish real OCR accuracy."
+          "detail": "Work has resumed on the bounded read-only dashboard and queue-context corrections. The recorded development snapshot passed 473 native dashboard and queue tests and all 38 checks in the corrected Edge browser journey. The earlier failed journey remains in the evidence. Final application checks and the integrated candidate are still being prepared. Simulated recognition in the browser journey does not establish real OCR accuracy."
         },
         {
           "title": "In progress: integrated native proof for a fictional evaluation",
