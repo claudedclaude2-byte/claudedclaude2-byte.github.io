@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-20",
-  "scope": "The combined private workflow candidate now includes customer planning, prerequisite links, tracker backup inspection, source and findings workbenches, and scanned-page queues. Coding and candidate-specific native Windows and final Linux checks are recorded as complete. The same-host sandbox validator still fails its base-image freshness rule, and there is no independent-review verdict. Separate clean-machine first use, acceptance and release remain open. Prerequisite snapshot comparison and the workspace scanned-page dashboard are now in progress. New work uses native execution; Docker and Windows Sandbox are deferred. No public product download is available.",
+  "scope": "Combined native evaluation proof is now in progress. The new prerequisite-snapshot coding checkpoint is complete, and the resumed workspace dashboard has passed its 473-test native suite; its browser correction rerun and final integration remain open. The job will freeze one build and retain evidence for a narrow fictional evaluation. Earlier Windows and Linux results apply to their recorded checkpoint, not automatically to these new changes. Docker, Windows Sandbox and Linux verification are deferred for this job. The earlier same-host sandbox freshness failure, missing independent-review verdict and separate clean-machine obligation remain explicit. Acceptance and release are open; no public product download is available.",
   "groups": [
     {
       "id": "done",
@@ -70,7 +70,7 @@
         },
         {
           "title": "Business evaluation: acceptance still open",
-          "detail": "The combined private candidate has passed the recorded Windows and final Linux checks described under Completed. Its larger evaluation profile stays within the limits already measured. The separate clean-machine first-use check and owner acceptance and release decisions remain open. The same-host sandbox validator failed its base-image freshness rule; passed test steps do not turn that verdict into a pass. No software has been handed out and no public product download is available."
+          "detail": "The 19 October private checkpoint has the historical Windows and Linux checks described under Completed. Those results do not certify the newest unintegrated additions. The next proof job will freeze one combined candidate, measure only the scope being offered, and retain a fictional demonstration and recipient checks. A separate clean-machine first use, independent reviewer verdict, acceptance and release remain open. No software has been handed out and no public product download is available."
         },
         {
           "title": "In progress: Path safety for workspace folders on Windows",
@@ -153,12 +153,16 @@
           "detail": "Matter and document queues show recorded page states, retain filters through page navigation, preserve entered fields after a refused action, link exact delivered transcript references, and offer a private selected-work summary. Focused and full-application checks passed on the combined candidate. Existing OCR and individual confirmation rules remain authoritative; the sealed browser journey for these pages is still missing."
         },
         {
-          "title": "In progress: prerequisite snapshots and comparison",
-          "detail": "Extend private version-plan snapshots and comparison to include prerequisite context while preserving the existing tracker schema and advisory planning boundary. Add native coverage for the current workflow. The assigned work has started in its development workspace. This work uses native checks. Docker and Windows Sandbox are deferred to a later checkpoint. Coding and new execution results are not yet complete."
+          "title": "Coded: prerequisite snapshots and comparison",
+          "detail": "The private coding checkpoint now includes prerequisite snapshots, comparison with current planning records, and comparison between two uploaded snapshots. Recorded affected native checks and a browser journey passed. This branch has not yet been combined with the newest workspace dashboard or rebuilt into an accepted evaluation package. Planning snapshots remain advisory and are not release evidence."
         },
         {
           "title": "In progress: workspace scanned-page work dashboard",
-          "detail": "Add a bounded read-only view across matters with explicit partial, busy and unavailable states and exact links into existing queues. Add the missing native queue, recovery and private-summary browser journey, including keyboard and accessibility checks. The assigned work has started in its development workspace. This work uses native checks. Docker and Windows Sandbox are deferred to a later checkpoint. Coding and new execution results are not yet complete."
+          "detail": "Work has resumed on the bounded read-only dashboard and queue-context corrections. The current development snapshot passed 473 native dashboard and queue tests. The earlier browser journey had two failed navigation checks; a passing rerun after the corrections and the final integration checkpoint are still required. Simulated recognition in this journey does not establish real OCR accuracy."
+        },
+        {
+          "title": "In progress: integrated native proof for a fictional evaluation",
+          "detail": "The native proof job has started. It will finish the outstanding dashboard checks, combine the two private development lanes and freeze one candidate. The planned evidence includes a rebuilt package, the promised born-digital PDF workflow checked against sealed fictional answers, source-page and correction records, recipient checks, and measured offered limits. Docker, Windows Sandbox and Linux verification are deferred. No evaluation acceptance or release is claimed, and this work sends no outreach."
         }
       ]
     },
