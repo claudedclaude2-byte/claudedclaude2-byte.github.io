@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-19",
-  "scope": "Customer-request tracking and transcript anchors are coded in the pilot. Separate development branches contain chronology capacity refusal, preparation-attempt recovery, delivered-source navigation, customer-planning tools, feedback follow-ups, planning history and a matter-preparation workbench. Customer prerequisite planning and the findings/correction workbench are now coded. Some focused customer-planning checks passed on a prior candidate, while broader Windows checks stopped on test-setup errors; no overall verification is claimed. Private tracker backup work has started. A scanned-page work queue is assigned, with implementation still awaiting confirmation. Both coding jobs must finish before combined integration and Windows/Linux verification. Earlier measurements remain tied to the versions checked. Acceptance and distribution conditions remain open; a public product download is not available.",
+  "updated": "2026-10-20",
+  "scope": "The combined private workflow candidate now includes customer planning, prerequisite links, tracker backup inspection, source and findings workbenches, and scanned-page queues. Coding and candidate-specific native Windows and final Linux checks are recorded as complete. The same-host sandbox validator still fails its base-image freshness rule, and there is no independent-review verdict. Separate clean-machine first use, acceptance and release remain open. Prerequisite snapshot comparison and the workspace scanned-page dashboard are now in progress. New work uses native execution; Docker and Windows Sandbox are deferred. No public product download is available.",
   "groups": [
     {
       "id": "done",
@@ -49,6 +49,14 @@
         {
           "title": "Public project presentation",
           "detail": "This website and its public roadmap are hosted online. Product source and private research remain separate."
+        },
+        {
+          "title": "Combined private workflow implementation",
+          "detail": "The private candidate now combines customer planning and prerequisite links, feedback history, private tracker backup inspection, preparation and findings workbenches, delivered-source navigation, and scanned-page work queues. Coding and integration are complete for this checkpoint. Recorded source results remain separate from factual conclusions, and planning records do not approve or release software."
+        },
+        {
+          "title": "Checked: combined Windows and Linux candidate",
+          "detail": "The 19 October checkpoint records 12,287 Windows regression checks passed, 497 skipped and none failed, with later affected checks rerun after test and tool changes. The final Linux check passed 9,526 tests with 445 skipped and none failed; 40 registered files were omitted for documented Windows-only behaviour. Windows package, installer, installed smoke and self-check, 281 browser checks, 99 fictional journey scenarios, and uninstall checks also passed on the candidate or its unchanged shipped files. The browser journeys cover the demonstration matter, not the new backup or queue pages. These results are candidate-specific technical checks, not acceptance or release."
         }
       ]
     },
@@ -58,11 +66,11 @@
       "items": [
         {
           "title": "Final technical review",
-          "detail": "The previous candidate received a blocking review finding. The one planned review and one correction pass have been used. The correction pass has machine evidence, but no independent review of the corrected candidate has been run."
+          "detail": "The one planned review and one correction pass have been used. The combined candidate has machine checks, but no independent reviewer verdict. Existing review history remains part of the private evidence; machine checks do not replace an independent verdict."
         },
         {
-          "title": "In progress: Business evaluation version",
-          "detail": "The business evaluation version has passed its Windows checks, and a partial Linux check in a container, on a development machine (see Completed). The larger evaluation profile is offered only up to the limits that were measured. No independent review of this version has been run. Still open: a first use of the separate customer package on a clean machine, and the owner decisions on acceptance and release. The first-use check of the evaluation package in an isolated, offline Windows sandbox on the development machine has now run its full 70-step plan on the corrected candidate: 68 steps passed, 2 did not apply and none failed. A fresh, disposable Windows guest with networking switched off received only the package folder, an offline Python installer and the check scripts; offline setup, the fictional matter journey, the browser and recipient checks, stopping, restarting and uninstalling all passed. An earlier run, on the previous candidate, failed 2 of its 70 steps, both runs of the smoke test, because a long user path pushed files past the default Windows path-length limit of 260 characters, which the development machine did not show; the smoke test and the installation self-check now choose a folder that fits the limit, and the two steps now pass. The full Windows test run of the corrected candidate has also completed on the development machine, with 8,060 tests passed, 471 skipped and 0 failed, newer than the figures in the Completed items. A partial Linux run in a container, on that candidate plus two later changes to test code only, ran 138 of its 170 registered test files, with 6,169 tests passed, 337 skipped and 0 failed; the other 32 files test file-access features that exist only on Windows. The sandbox run used fictional data only, ran on the same machine and Windows build as the development work, covered one install route without customer security software, proxy or reboot, and the guest wrote its own receipts, so it is not a separate clean machine; this version stays in progress. The evaluation offer remains a draft that has not been sent or offered to anyone, no software has been handed out, and none of this is acceptance or release."
+          "title": "Business evaluation: acceptance still open",
+          "detail": "The combined private candidate has passed the recorded Windows and final Linux checks described under Completed. Its larger evaluation profile stays within the limits already measured. The separate clean-machine first-use check and owner acceptance and release decisions remain open. The same-host sandbox validator failed its base-image freshness rule; passed test steps do not turn that verdict into a pass. No software has been handed out and no public product download is available."
         },
         {
           "title": "In progress: Path safety for workspace folders on Windows",
@@ -70,75 +78,87 @@
         },
         {
           "title": "Lint and security baseline",
-          "detail": "Repository-wide checks still retain existing findings. Recorded changes add no new findings in the checked code and security rules; this does not mean the entire repository is clean."
+          "detail": "The changed-file security checks passed at the combined checkpoint, including dependency audits with no known vulnerabilities in the eight checked manifests. Existing repository-wide formatting, security and secret-scan findings remain; the entire repository is not claimed clean."
         },
         {
           "title": "In progress: Automatic local tool startup and shutdown",
           "detail": "The shared runtime is implemented to start local tools when an operation needs them and close connections, temporary containers and ports after the last active owner finishes. Qualification is in progress, including interrupted jobs. Pilot acceptance and release remain open."
         },
         {
-          "title": "In progress: Windows Setup.exe installer",
-          "detail": "Work to finish the private Windows Setup.exe installer for a bounded customer evaluation by one operator, using fictional or non-confidential records only, is in progress. The owner chose to take the two Microsoft runtime files unmodified from the owner's own licensed Microsoft development software, which is now installed on the development machine; the installer's file check was corrected to accept the exact Microsoft signer name those files carry, and it still refuses unsigned, altered or non-Microsoft files. On the development machine a new build that takes those files was assembled and its own checks passed, including the fictional demonstration, where 51 of 51 checks agreed. On that machine, in an isolated, offline Windows sandbox, using fictional data only, 48 of 50 steps of the build's check passed, 2 did not apply and none failed; a program, not a person, pressed the buttons, and the sandbox ran on the same machine, so it is not a separate clean machine. The sandbox check's own freshness test did not pass after the machine's restart, so that run is recorded as not clean. A capacity measurement of the same build with generated fictional documents passed all 11 of its cases, and on Windows the 8,902 tests of the test gates passed with none failing. The Linux check of the installer's tests has not run: the attempt was stopped for lack of free memory on the development machine. Decisions and conditions for the owner remain open, including confirming the licence terms for those files, and until they are met the installer is not handed out. The installer has had no independent review, no software has been handed out, no public download is available, and none of this is acceptance or release."
+          "title": "Windows installer: verification limits remain",
+          "detail": "The private installer built twice with identical output and passed its package verification and 51-check fictional demonstration. Native install, smoke, browser and uninstall checks passed for the candidate's unchanged shipped files. In the same-host Windows sandbox, 48 planned steps passed, 2 did not apply and none failed, but the validator verdict remains FAIL because the base image was older than the host boot. This is not a separate clean machine. Independent review and distribution decisions remain open; the installer has not been handed out."
         },
         {
-          "title": "Coded: customer requests and future versions",
-          "detail": "The local tracker is integrated into the private pilot. It captures customer feedback, acceptance criteria and coding briefs alongside planned versions and operator-recorded deliveries. Execution checks of this integration are deferred. Saving a record does not run code, verify a release, publish software or contact a customer."
+          "title": "Integrated: customer requests and future versions",
+          "detail": "The local tracker records feedback, acceptance criteria, coding briefs, planned versions and operator-recorded deliveries. Saving a record does not run code, verify a release, publish software or contact a customer. This implementation is included in the combined private checkpoint; acceptance and release remain open."
         },
         {
-          "title": "Coded: earlier chronology capacity refusal",
-          "detail": "A separate development branch now stops before reading later PDFs once dated entries extracted from fully prepared documents exceed the existing 1,024-entry ceiling. It records prepared and unprepared documents, with the count labelled as a lower bound for the whole matter. The document that crosses the bound is still fully read. Integration and execution checks are deferred; no performance or release claim is made."
+          "title": "Integrated: earlier chronology capacity refusal",
+          "detail": "Preparation stops before reading later PDFs once fully prepared documents exceed the existing 1,024 dated-entry ceiling. The crossing document is still fully read, and the recorded count remains a lower bound for the whole matter. This implementation is included in the combined private checkpoint; acceptance and release remain open."
         },
         {
-          "title": "Coded: transcript anchors in the local interface",
-          "detail": "The private pilot now includes a local action to create a transcript anchor through the same writer used by the command-line workflow. This makes the existing preparation step available from the interface. Execution checks are deferred; the change does not establish the accuracy of a transcript or a release."
+          "title": "Integrated: transcript anchors in the local interface",
+          "detail": "The interface can create a transcript anchor using the existing command-line writer. This does not establish the accuracy of the transcript. This implementation is included in the combined private checkpoint; acceptance and release remain open."
         },
         {
-          "title": "Coded: customer planning workspace",
-          "detail": "A separate development branch now contains request search, status/priority/version filters and pagination, version detail pages, edits while a version is still planned, and a local planning-brief download. Original feedback quotes and customer references are omitted from that download by default. The implementation preserves the existing data schema and keeps released versions locked. At this coding checkpoint, tests had been written but had not run; integration into the pilot and execution checks are deferred. Recorded references do not become verified evidence, and this is not a verified release."
+          "title": "Integrated: customer planning workspace",
+          "detail": "Request search, status, priority and version filters, pagination, planned-version edits and private planning briefs are integrated. Original feedback and customer references stay out of brief downloads by default, and released versions remain locked. This implementation is included in the combined private checkpoint; acceptance and release remain open."
         },
         {
-          "title": "Coded: preparation attempts and safe recovery",
-          "detail": "A separate development branch now contains a bounded view of retained incomplete preparation attempts, including after restart, a Not delivered detail page, safe links back to the existing check-and-prepare flow, and a sanitized local JSON diagnostic download. It distinguishes known failures from an unrecorded outcome and reports available prepared and unread document information. There is no automatic retry, deletion or preparation cancellation. Tests have been written but have not run; final integration and execution checks are deferred. This is not a verified release."
+          "title": "Integrated: preparation attempts and safe recovery",
+          "detail": "Retained incomplete preparation attempts have a bounded view, explicit Not delivered details, safe links to the existing check-and-prepare flow and a sanitized local diagnostic. Unknown outcomes remain distinct from known failures; there is no automatic retry, deletion or cancellation. This implementation is included in the combined private checkpoint; acceptance and release remain open."
         },
         {
-          "title": "Coded: planning triage and version handoff",
-          "detail": "The customer-planning development branch now contains bounded version search, filters and pagination; batch target-version changes with a preview and all-or-nothing conflict checks; a triage overview; comparison of two current version scopes; private-by-default request briefs; and change-summary drafts. The existing data schema and released-version locks are preserved. At this coding checkpoint, static checks were reported and tests were written but not run. Integration and execution checks are deferred, and no independent review has been run. Downloads do not publish software or contact a customer; this is not acceptance or release."
+          "title": "Integrated: planning triage and version handoff",
+          "detail": "Version search, filters, pagination, target-version reassignment previews, conflict checks, triage and current-scope comparison are integrated. Private downloads do not publish software or contact a customer. This implementation is included in the combined private checkpoint; acceptance and release remain open."
         },
         {
-          "title": "Coded: frozen version plans and scope changes",
-          "detail": "The customer-planning development branch now contains complete version-plan snapshots, bounded to 100 requests and 256 KiB, strict checks when loading a snapshot, comparison with the current recorded scope, and a comparison report that refuses a stale current plan. Original feedback and customer references are excluded, incomplete snapshots are refused, and the existing database schema is preserved. An uploaded snapshot is not authenticated history or proof of implementation. At this coding checkpoint, static checks were reported and tests were written but not run. Integration and execution checks are deferred, and no independent review has been run. This is not acceptance or release."
+          "title": "Integrated: frozen version plans and scope changes",
+          "detail": "Bounded version-plan snapshots can be checked and compared with current recorded scope. Incomplete or stale comparisons are refused. Original feedback and customer references are excluded; an uploaded snapshot is not authenticated history or implementation evidence. This implementation is included in the combined private checkpoint; acceptance and release remain open."
         },
         {
-          "title": "Coded: customer planning across platforms",
-          "detail": "The customer-planning development branch now separates its planning component from Windows-only document services while sharing the existing local request protections and preserving the Windows application integration. Source and static checks were reported and new regression cases were written. Full-application and Linux verification were deferred at this coding checkpoint; this does not establish Linux support. Integration and execution verification are deferred, and no independent review has been run. The document-processing offer is unchanged; this is not acceptance or release."
+          "title": "Integrated: customer planning across platforms",
+          "detail": "The planning component is separated from Windows document services and included in the recorded final Linux checks, while its Windows application integration is preserved. The Windows document-processing offer is unchanged. This implementation is included in the combined private checkpoint; acceptance and release remain open."
         },
         {
-          "title": "Coded: source navigator for delivered revisions",
-          "detail": "A separate development branch now contains bounded browsing of recorded source inventories and citation references in a delivered revision, its recorded date chronology, and source-inventory comparison across the correction round. Original records remain unchanged, and recorded source information is kept distinct from current verification. Tests were written but have not run; final integration and execution checks are deferred. This is not acceptance or release."
+          "title": "Integrated: source navigator for delivered revisions",
+          "detail": "Delivered revisions have bounded source-inventory and citation browsing, recorded chronology and correction-round comparison. Original records are unchanged and recorded source information remains separate from current verification. This implementation is included in the combined private checkpoint; acceptance and release remain open."
         },
         {
-          "title": "Coded: feedback follow-ups and planning history",
-          "detail": "The customer-planning development branch now links new feedback to an earlier request, records later planning changes in a bounded history, and offers private local history downloads. Existing records are preserved; earlier events are not invented. These are recorded planning changes, not independent evidence. At this coding checkpoint, tests had been written but had not run; final integration and execution checks are deferred. No independent review has been run, and this is not acceptance or release."
+          "title": "Integrated: feedback follow-ups and planning history",
+          "detail": "New feedback can link to an earlier request; later planning changes and private local history downloads are retained. Earlier events are not invented, and recorded planning history is not independent evidence. This implementation is included in the combined private checkpoint; acceptance and release remain open."
         },
         {
-          "title": "Coded: recovery of unsaved form drafts",
-          "detail": "The customer-planning development branch now preserves unsaved request and release-form text when an edit is refused, shows the submitted values alongside the current saved values, and offers a private local draft download. Drafts are not automatically merged, saved or released. At this coding checkpoint, tests had been written but had not run; final integration and execution checks remain deferred. This is not acceptance or release."
+          "title": "Integrated: recovery of unsaved form drafts",
+          "detail": "Refused edits retain submitted request and release-form text beside current saved values, with a private draft download. Drafts are not automatically merged, saved or released. This implementation is included in the combined private checkpoint; acceptance and release remain open."
         },
         {
-          "title": "Coded: matter-preparation workbench",
-          "detail": "A separate development branch now contains a bounded searchable matter list, a readable saved-scope view with comparison to a delivered revision, checked-folder filters that retain blockers, a correction-folder preview, an explanation of bundle order, and private JSON or text preparation summaries. The existing checks and preparation flow remain the authority. Static checks were recorded and tests were written, but tests have not run. Final integration and execution checks are deferred; this is not acceptance or release."
+          "title": "Integrated: matter-preparation workbench",
+          "detail": "The integrated workbench provides a searchable matter list, saved-scope comparison, checked-folder filters that retain blockers, a correction-folder preview, bundle-order explanation and private preparation summaries. The existing checks remain the authority. This implementation is included in the combined private checkpoint; acceptance and release remain open."
         },
         {
-          "title": "Coded: customer prerequisite planning",
-          "detail": "The customer-planning branch now records explicit prerequisites between requests, refuses circular links, shows affected requests and version context, includes prerequisites in reassignment previews, and offers a private planning brief. Prerequisites remain advisory and do not automatically change request status, version scope or release records. Focused checks passed on the prior candidate; a broader check stopped on two Windows test-setup errors. Final combined integration and execution checks remain incomplete. This is not acceptance or release."
+          "title": "Integrated: customer prerequisite planning",
+          "detail": "Explicit prerequisite links, cycle refusal, affected-request views, version context, reassignment previews and private prerequisite briefs are integrated. Prerequisites remain advisory and do not automatically change request status, version scope or release records. This implementation is included in the combined private checkpoint; acceptance and release remain open."
         },
         {
-          "title": "Coded: findings and correction workbench",
-          "detail": "The development branch now contains a bounded view of recorded statement and expected-record results, including items with no hits; focused item pages; conservative comparison across delivered revisions; and private selected correction briefs. Current revision state is kept separate from recorded results. These views do not rerun quotation checks, establish truth or alter evidence. Static checks were recorded and tests were written, but tests have not run. Final combined integration, Windows and Linux execution checks remain deferred."
+          "title": "Integrated: findings and correction workbench",
+          "detail": "Recorded statements and expected-record results have bounded lists, item pages, conservative revision comparisons and private correction briefs. These views do not rerun quotation checks, establish truth or alter evidence. This implementation is included in the combined private checkpoint; acceptance and release remain open."
         },
         {
-          "title": "In progress: private tracker backup and recovery guidance",
-          "detail": "Work has started on a consistent private backup of the complete customer tracker, clear version-compatibility information, and read-only inspection of a backup before manual recovery. This includes recorded feedback, links and planning history; it is private data, not a sanitized planning brief. The work will not restore over a live tracker or upload records. Coding is unfinished. Combined integration and verification will begin only after both current coding jobs finish and release their work."
+          "title": "Integrated: private tracker backup and recovery guidance",
+          "detail": "The integrated tracker can produce a consistent complete private backup and inspect its format and compatibility before manual recovery. Feedback, links and planning history remain private data. The backup flow does not overwrite a live tracker or upload records. Route, model and application checks passed; a sealed browser journey for these pages remains to be added."
+        },
+        {
+          "title": "Integrated: scanned-page work queue and transcript navigation",
+          "detail": "Matter and document queues show recorded page states, retain filters through page navigation, preserve entered fields after a refused action, link exact delivered transcript references, and offer a private selected-work summary. Focused and full-application checks passed on the combined candidate. Existing OCR and individual confirmation rules remain authoritative; the sealed browser journey for these pages is still missing."
+        },
+        {
+          "title": "In progress: prerequisite snapshots and comparison",
+          "detail": "Extend private version-plan snapshots and comparison to include prerequisite context while preserving the existing tracker schema and advisory planning boundary. Add native coverage for the current workflow. The assigned work has started in its development workspace. This work uses native checks. Docker and Windows Sandbox are deferred to a later checkpoint. Coding and new execution results are not yet complete."
+        },
+        {
+          "title": "In progress: workspace scanned-page work dashboard",
+          "detail": "Add a bounded read-only view across matters with explicit partial, busy and unavailable states and exact links into existing queues. Add the missing native queue, recovery and private-summary browser journey, including keyboard and accessibility checks. The assigned work has started in its development workspace. This work uses native checks. Docker and Windows Sandbox are deferred to a later checkpoint. Coding and new execution results are not yet complete."
         }
       ]
     },
@@ -169,10 +189,6 @@
         {
           "title": "Prepare a runnable release",
           "detail": "Close the remaining technical and release obligations before offering a public product download."
-        },
-        {
-          "title": "Next: scanned-page work queue and transcript navigation",
-          "detail": "Add bounded matter and document queues for scanned pages, filters for recorded page states, safe links back to a filtered list, preserved fields when an existing action is refused, and a private selected-work summary. Existing OCR, transcript corrections and individual confirmation rules remain the authority. The assignment is prepared and local startup files are present; implementation has not yet been confirmed. Product tests and combined Windows/Linux verification are deferred until both coding jobs finish."
         }
       ]
     }
