@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-21",
-  "scope": "Combined native evaluation proof is in progress. The scanned-page work dashboard and the prerequisite-snapshot work have been merged into one private candidate. On a development machine, the full native Windows regression of that combined evaluation build has passed, its package and installer have been built and checked, a sealed fictional scenario agreed with its sealed answers, size-limit and refusal cases behaved as designed on fictional files, and browser journeys on fictional data passed, with simulated recognition wherever recognition was involved; each result is listed under Completed with its limits. The installer was only unpacked into a folder, not installed in the normal way. Assembling the evidence packet and reconciling the evaluation description from measured results come next. Earlier Windows and Linux results apply to their recorded checkpoint, not automatically to these new changes, and each new Windows result is limited to the build it ran on. A follow-on job re-checked the combined build on Windows, in an isolated Windows guest on the same machine and on Linux (listed under Completed); its first-use explanation and walkthrough are planned and not built yet. The earlier same-host sandbox freshness failure, missing independent-review verdict and separate clean-machine obligation remain explicit. Acceptance and release are open; no public product download is available.",
+  "scope": "Combined native evaluation proof is in progress. The scanned-page work dashboard and the prerequisite-snapshot work have been merged into one private candidate. On a development machine, the full native Windows regression of that combined evaluation build has passed, its package and installer have been built and checked, a sealed fictional scenario agreed with its sealed answers, size-limit and refusal cases behaved as designed on fictional files, and browser journeys on fictional data passed, with simulated recognition wherever recognition was involved; each result is listed under Completed with its limits. The installer was only unpacked into a folder, not installed in the normal way. Assembling the evidence packet and reconciling the evaluation description from measured results come next. Earlier Windows and Linux results apply to their recorded checkpoint, not automatically to these new changes, and each new Windows result is limited to the build it ran on. A follow-on job re-checked the combined build on Windows, in an isolated Windows guest on the same machine and on Linux (listed under Completed). Work on a clearer first-use explanation and walkthrough, followed by a re-check of the changed build, is now in progress; no result from it is claimed yet. The earlier same-host sandbox freshness failure, missing independent-review verdict and separate clean-machine obligation remain explicit. Acceptance and release are open; no public product download is available.",
   "groups": [
     {
       "id": "done",
@@ -187,6 +187,10 @@
         {
           "title": "In progress: integrated native proof for a fictional evaluation",
           "detail": "The native proof job is running on one merged private candidate. Its checks on a development machine so far are listed under Completed: the full native Windows regression, the package and installer, the sealed fictional scenario, the size-limit and refusal cases, and the browser journeys on fictional data. The evidence still to come is the assembled evidence packet and the reconciled evaluation description and capacity profile, filled only from measured results; these steps are listed under Next milestones. Docker, Windows Sandbox and Linux verification are deferred for this job. No independent review verdict, evaluation acceptance or release is claimed. Real scanned-page recognition accuracy, time saved and legal correctness are not claimed, and this work sends no outreach."
+        },
+        {
+          "title": "In progress: clearer first use and verification",
+          "detail": "A plainer start-here explanation on the pilot's home screen and a short walkthrough that uses only fictional records are being built, then the changed build is to be checked again on Windows, in an isolated Windows guest on the same machine and on Linux. Not finished; no result from this work is claimed yet."
         }
       ]
     },
@@ -194,10 +198,6 @@
       "id": "next",
       "title": "Next milestones",
       "items": [
-        {
-          "title": "Clearer first use",
-          "detail": "A plainer start-here explanation on the pilot's home screen and a short walkthrough that uses only fictional records. Planned; not built yet."
-        },
         {
           "title": "Evidence packet and reconciled evaluation description",
           "detail": "After the checks recorded under Completed: assemble the evidence packet from the recorded results, keeping the first-revision comparison labelled after-only, then reconcile the evaluation description and capacity profile using only measured results. Independent review, a normal-installation check and a first use on a clean machine remain separate steps. Docker, Windows Sandbox and Linux verification are deferred for this job. No result for these steps is claimed yet."
