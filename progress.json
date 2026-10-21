@@ -191,6 +191,10 @@
         {
           "title": "In progress: clearer first use and verification",
           "detail": "A plainer start-here explanation on the pilot's home screen and a short walkthrough that uses only fictional records are being built, then the changed build is to be checked again on Windows, in an isolated Windows guest on the same machine and on Linux. Not finished; no result from this work is claimed yet."
+        },
+        {
+          "title": "In progress: clearer first-use explanations",
+          "detail": "We are checking the public website and fictional walkthrough for confusing language, unclear next steps and unexplained result labels. The work includes a concise getting-started explanation, glossary, FAQ and demonstration script. Suggestions will be reconciled with the application changes before publication."
         }
       ]
     },
