@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-21",
-  "scope": "Combined native evaluation proof is in progress. The scanned-page work dashboard and the prerequisite-snapshot work have been merged into one private candidate. On a development machine, the full native Windows regression of that combined evaluation build has passed, its package and installer have been built and checked, a sealed fictional scenario agreed with its sealed answers, size-limit and refusal cases behaved as designed on fictional files, and browser journeys on fictional data passed, with simulated recognition wherever recognition was involved; each result is listed under Completed with its limits. The installer was only unpacked into a folder, not installed in the normal way. Assembling the evidence packet and reconciling the evaluation description from measured results come next. Earlier Windows and Linux results apply to their recorded checkpoint, not automatically to these new changes, and each new Windows result is limited to the build it ran on. A follow-on job to make first use clearer and to re-check the combined build is now in progress; its first-use explanation and walkthrough are not finished and no result from it is claimed yet. Docker, Windows Sandbox and Linux verification were deferred for the native proof job and are planned for the follow-on job. The earlier same-host sandbox freshness failure, missing independent-review verdict and separate clean-machine obligation remain explicit. Acceptance and release are open; no public product download is available.",
+  "scope": "Combined native evaluation proof is in progress. The scanned-page work dashboard and the prerequisite-snapshot work have been merged into one private candidate. On a development machine, the full native Windows regression of that combined evaluation build has passed, its package and installer have been built and checked, a sealed fictional scenario agreed with its sealed answers, size-limit and refusal cases behaved as designed on fictional files, and browser journeys on fictional data passed, with simulated recognition wherever recognition was involved; each result is listed under Completed with its limits. The installer was only unpacked into a folder, not installed in the normal way. Assembling the evidence packet and reconciling the evaluation description from measured results come next. Earlier Windows and Linux results apply to their recorded checkpoint, not automatically to these new changes, and each new Windows result is limited to the build it ran on. A follow-on job re-checked the combined build on Windows, in an isolated Windows guest on the same machine and on Linux (listed under Completed); its first-use explanation and walkthrough are planned and not built yet. The earlier same-host sandbox freshness failure, missing independent-review verdict and separate clean-machine obligation remain explicit. Acceptance and release are open; no public product download is available.",
   "groups": [
     {
       "id": "done",
@@ -77,6 +77,10 @@
         {
           "title": "Checked: browser journeys on fictional data for the combined evaluation build",
           "detail": "Checked on Windows, on a development machine; not acceptance or release. Against the unpacked installer package of the combined evaluation build, native Edge browser journeys (headless, JavaScript off) and command-line and web-request scenarios were each run once, one at a time, on fictional data, and none failed. They covered the demonstration matter and its correction round, delivered-source navigation, the private tracker backup and recovery pages, the new prerequisite-snapshot pages and the new scanned-page work dashboard. Recognition in the dashboard journey was simulated, not real OCR. Some less-used paths of the new pages were not exercised (for example dashboard search and paging, some refusal responses and the navigation link), the Start-menu launcher was not used, and a separate integrity check re-read the recorded results afterwards. This is not a normal installation, real recognition, another computer, an independent review, acceptance or release. No software has been handed out."
+        },
+        {
+          "title": "Checked: final re-check of the combined build",
+          "detail": "On a development machine, the combined private build passed its full Windows regression; its package and installer were built and checked; a sealed fictional scenario agreed with its sealed answers both from source and from the unpacked installer; a browser journey on fictional data passed on the installed layout; installing, starting, checking and removing it in an isolated Windows guest on the same machine passed (not a separate computer); and the full Linux check passed. Recognition was simulated wherever it was involved. No independent review was done, and nothing here is a release, an acceptance or a readiness claim."
         }
       ]
     },
@@ -183,10 +187,6 @@
         {
           "title": "In progress: integrated native proof for a fictional evaluation",
           "detail": "The native proof job is running on one merged private candidate. Its checks on a development machine so far are listed under Completed: the full native Windows regression, the package and installer, the sealed fictional scenario, the size-limit and refusal cases, and the browser journeys on fictional data. The evidence still to come is the assembled evidence packet and the reconciled evaluation description and capacity profile, filled only from measured results; these steps are listed under Next milestones. Docker, Windows Sandbox and Linux verification are deferred for this job. No independent review verdict, evaluation acceptance or release is claimed. Real scanned-page recognition accuracy, time saved and legal correctness are not claimed, and this work sends no outreach."
-        },
-        {
-          "title": "In progress: Clearer first use and final pilot checks",
-          "detail": "A plainer explanation of where to start on the pilot's home screen, and a short walkthrough that uses only fictional records, are planned; neither is built yet. The combined private build is to be checked again on Windows, then in a fresh isolated Windows guest on the same development machine (not a separate clean machine) and on Linux. No new result is claimed yet, and nothing here is a release, an acceptance or a readiness claim."
         }
       ]
     },
@@ -194,6 +194,10 @@
       "id": "next",
       "title": "Next milestones",
       "items": [
+        {
+          "title": "Clearer first use",
+          "detail": "A plainer start-here explanation on the pilot's home screen and a short walkthrough that uses only fictional records. Planned; not built yet."
+        },
         {
           "title": "Evidence packet and reconciled evaluation description",
           "detail": "After the checks recorded under Completed: assemble the evidence packet from the recorded results, keeping the first-revision comparison labelled after-only, then reconcile the evaluation description and capacity profile using only measured results. Independent review, a normal-installation check and a first use on a clean machine remain separate steps. Docker, Windows Sandbox and Linux verification are deferred for this job. No result for these steps is claimed yet."
