@@ -209,6 +209,14 @@
           "detail": "The native proof job is running on one merged private candidate. Its checks on a development machine so far are listed under Completed: the full native Windows regression, the package and installer, the sealed fictional scenario, the size-limit and refusal cases, and the browser journeys on fictional data. The evidence still to come is the assembled evidence packet and the reconciled evaluation description and capacity profile, filled only from measured results; these steps are listed under Next milestones. Docker, Windows Sandbox and Linux verification are deferred for this job. No independent review verdict, evaluation acceptance or release is claimed. Real scanned-page recognition accuracy, time saved and legal correctness are not claimed, and this work sends no outreach."
         },
         {
+          "title": "In progress: Clean up the pilot's own working folder when the installer uninstalls",
+          "detail": "The change is written in the source for the Windows installer: its uninstaller removes the installation's own working folder, and only when an owner record in that folder proves it belongs to this installation. The change comes with the developer's own automated tests; these are not the final checks. It has not yet been observed on an installed build, and the final Windows, installer, Windows sandbox and Linux checks have not run, so no result for this change is claimed. Folders that earlier builds left in the user's temporary folder are not touched. The working folder can hold intermediate text or page images of documents the operator chose, so the evaluation stays limited to fictional or non-confidential documents. Independent review, acceptance and release remain open."
+        },
+        {
+          "title": "In progress: Zip package uninstall and tracker backup copies",
+          "detail": "The change is written in the source for the zip package. A backup of the tracker, and the check of a backup file, copy the tracker into a temporary folder; that folder now carries an owner record from the start. The zip package's uninstaller removes such a leftover folder only when the record proves it belongs to this installation and the process that made it has ended. A folder without a record is listed and kept, because it may hold a copy of the tracker. The change comes with the developer's own automated tests; these are not the final checks. It has not yet been observed on an installed package, and the final checks have not run, so no result for this change is claimed. Independent review, acceptance and release remain open."
+        },
+        {
           "title": "In progress: final Linux check of the updated build",
           "detail": "The Linux check of the updated build could not start: the development computer did not have enough free memory for the container that the check runs in, and the check is set to refuse to start rather than run short of memory, so nothing ran and no Linux result is claimed for this build. A Linux check of the earlier candidate had also been started but did not finish. A further attempt on 23 October 2026 could not start either: the development computer did not have enough free memory for the shared Docker safety limit, so no test ran and nothing was released. The check will run when enough memory is available on the development computer, and its result will be read before anything is said about it. Until then the Linux result for the updated build stays open. Until all checks are done, the evaluation stays limited to fictional or non-confidential documents. Nothing is released; independent review, acceptance, release and a test on a separate computer remain open."
         }
@@ -219,16 +227,16 @@
       "title": "Next milestones",
       "items": [
         {
+          "title": "Final checks of the build with the cleanup changes, then one Linux check",
+          "detail": "Planned, not started: after the current implementation work finishes, check the build that includes the two cleanup changes one step at a time on Windows (the full test suite, the package and installer build, the installed checks and the Windows sandbox), and then run one final Linux check. Nothing of this has run for this build. Results will be recorded here only after they exist and have been read; independent review, acceptance and release remain open."
+        },
+        {
           "title": "Evidence packet and reconciled evaluation description",
           "detail": "After the checks recorded under Completed: assemble the evidence packet from the recorded results, keeping the first-revision comparison labelled after-only, then reconcile the evaluation description and capacity profile using only measured results. Independent review, a normal-installation check and a first use on a clean machine remain separate steps. Docker, Windows Sandbox and Linux verification are deferred for this job. No result for these steps is claimed yet."
         },
         {
           "title": "Name the Windows-checked build in the evaluation documents",
           "detail": "Planned, not started: prepare the evaluation documents so that they name the build that was checked on Windows and state each result for that build only. Which build becomes the evaluation build has not been chosen yet. No result for this step is claimed; independent review, acceptance and release remain open."
-        },
-        {
-          "title": "Clean up the pilot's temporary working folders when the installer uninstalls",
-          "detail": "Planned, not started: make the Windows installer's uninstaller remove the pilot's own temporary working folders, and only folders it can prove are the pilot's. This was found by reading the installer's code and has not been reproduced on an installed build. The uninstaller removes only the files it installed, so a step that stopped part-way can leave such a folder in the user's temporary folder; the zip package's uninstaller already removes them. The folders can hold intermediate text or page images of documents the operator chose, so the evaluation stays limited to fictional or non-confidential documents. No result for this step is claimed."
         },
         {
           "title": "Package a small offline evidence checker",
