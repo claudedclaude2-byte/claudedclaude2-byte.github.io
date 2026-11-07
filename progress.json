@@ -125,8 +125,8 @@
       "title": "Acceptance still open",
       "items": [
         {
-          "title": "In progress: repair integration and Windows verification",
-          "detail": "Recovery diagnostics, comparison navigation and related test repairs have been handed over for integration. Full Windows verification continues; packaging, installed checks and final Linux verification follow. Acceptance and release remain open."
+          "title": "In progress: integrated repairs and focused verification",
+          "detail": "Recovery diagnostics, comparison navigation and related repairs are now integrated. Focused checks of those repairs and the core comparison scenarios have passed on the development build. Remaining repairs are in progress. Final Windows verification, packaging, installed checks and final Linux verification still have to finish. The pilot is not ready for release."
         },
         {
           "title": "Final technical review",
@@ -336,7 +336,7 @@
       "items": [
         {
           "title": "Package and verify the repaired Windows pilot",
-          "detail": "The installer and launcher source is integrated. After the current repair handoffs are integrated and the final candidate is frozen, complete its Windows checks, build and verify its package and installer, check the installed fictional workflow, then run final Linux verification. No readiness or release is claimed."
+          "detail": "After the remaining repairs and focused checks, freeze one candidate, complete its full Windows checks, build and verify its package and installer, check the installed fictional workflow, then run final Linux verification. Report each result against that candidate; acceptance and release remain open."
         },
         {
           "title": "Full checks of the further successor build, Linux last",
