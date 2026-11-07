@@ -125,8 +125,8 @@
       "title": "Acceptance still open",
       "items": [
         {
-          "title": "In progress: recovery diagnostics and navigation repairs",
-          "detail": "Repairs to recovered-copy diagnostics and comparison navigation are underway in a separate development copy. Windows verification has found failures; packaging and installed checks follow. Acceptance and release remain open."
+          "title": "In progress: repair integration and Windows verification",
+          "detail": "Recovery diagnostics, comparison navigation and related test repairs have been handed over for integration. Full Windows verification continues; packaging, installed checks and final Linux verification follow. Acceptance and release remain open."
         },
         {
           "title": "Final technical review",
@@ -335,8 +335,8 @@
       "title": "Next milestones",
       "items": [
         {
-          "title": "Take in the Windows installer and launcher source from its partner",
-          "detail": "The project is to take in, as whole files and not as a description, the source that a partner is writing for the Windows installer: the builder of the installer, the Start-menu launcher, a small program that gives the launcher a plain summary of a recovered copy of the customer tracker, and authored cases for the life cycle and the clean-up of the installer. The summary program is to stay a small separate part that uses only the standard library, opens no notes of the tracker, checks the identity of the copy that was chosen and does nothing before a copy is chosen. The list of files of the package and the registration of the tests stay with the project. Next, in this order: the partner supplies the whole files, with a list of them from one agreed starting point; the project reads them against its own code; and only then are they joined to the private successor build. None of it has arrived, none of it was run, and no result is claimed. In the current round nothing is built, installed or tested, because the project's owner set the round to coding only. Until all checks are done, the evaluation stays limited to fictional or non-confidential documents. Independent review, acceptance, release and a test on a separate computer remain open, and no software has been handed out. This is not an acceptance, a release or a readiness claim."
+          "title": "Package and verify the repaired Windows pilot",
+          "detail": "The installer and launcher source is integrated. After the current repair handoffs are integrated and the final candidate is frozen, complete its Windows checks, build and verify its package and installer, check the installed fictional workflow, then run final Linux verification. No readiness or release is claimed."
         },
         {
           "title": "Full checks of the further successor build, Linux last",
