@@ -161,8 +161,8 @@
       "title": "Acceptance still open",
       "items": [
         {
-          "title": "Acceptance and recipient activation remain open",
-          "detail": "The recorded technical checks and local delivery preparation are complete within their stated scopes. The private evaluation archive is assembled and relocation-verified, but no recipient handoff or activation is claimed. Setup remains unsigned. Same-host headless browser checks with JavaScript disabled do not establish physical PDF-viewer or separate-computer observations. Newline-trimming and PDF-readability wording limitations remain explicit. Standing human acknowledgment is not a physical observation or independent technical verdict; overall acceptance and public release remain open."
+          "title": "Pilot input validation and uninstall verification in progress",
+          "detail": "Implementation is underway to reject invalid matter identifiers before saving, allow delayed uninstall cleanup to finish within a bounded wait, and strengthen the acceptance checks. Verification of this successor is pending. Existing results belong to the earlier frozen candidate; no new passing result, independent review, acceptance or recipient handoff is claimed."
         },
         {
           "title": "Final technical review",
@@ -371,8 +371,8 @@
       "title": "Next milestones",
       "items": [
         {
-          "title": "Tighten pilot input validation and verify uninstall completion",
-          "detail": "Next, reject invalid matter identifiers before saving and let the Windows verification runner observe delayed uninstall cleanup before closing its process tree. Reconcile the PDF-status check with the existing interface wording, then verify the affected behavior on a successor candidate. This is planned work: no new implementation, passing result or recipient handoff is claimed."
+          "title": "Verify the integrated successor and refresh the private evaluation bundle",
+          "detail": "Freeze the integrated successor, run the affected Windows, package, installed-workflow and Linux checks, then refresh the private Windows evaluation bundle. Keep failures and untested behavior explicit. The evaluation remains limited to fictional or non-confidential documents; recipient installation, sending and activation remain separate outcomes."
         },
         {
           "title": "Full checks of the further successor build, Linux last",
