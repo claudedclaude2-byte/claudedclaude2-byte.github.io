@@ -371,8 +371,8 @@
       "title": "Next milestones",
       "items": [
         {
-          "title": "Use the prepared archive within the private pilot scope",
-          "detail": "The prepared archive is for a private Windows evaluation using fictional or non-confidential documents. Preserve its documented limitations and record any recipient handoff, installation and activation separately. The completed local checks do not establish those later outcomes. No public download or customer activation has occurred; overall acceptance and release remain open."
+          "title": "Tighten pilot input validation and verify uninstall completion",
+          "detail": "Next, reject invalid matter identifiers before saving and let the Windows verification runner observe delayed uninstall cleanup before closing its process tree. Reconcile the PDF-status check with the existing interface wording, then verify the affected behavior on a successor candidate. This is planned work: no new implementation, passing result or recipient handoff is claimed."
         },
         {
           "title": "Full checks of the further successor build, Linux last",
