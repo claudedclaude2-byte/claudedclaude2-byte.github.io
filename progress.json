@@ -391,6 +391,10 @@
       "title": "Next milestones",
       "items": [
         {
+          "title": "Planned: more spreadsheet exports and saved-copy checks",
+          "detail": "The next development tranche covers spreadsheet copies of the source inventory and selected findings, a local inspector for saved export files, and a separate offline recipient checker. The work is assigned in isolated workspaces; source-inventory contract work has started, while the other coding lanes await startup requirements. The planned exports retain recorded context and privacy choices, refuse incomplete or oversized data, and leave delivered revisions unchanged. Synthetic fixtures and integration handoffs are part of the scope. These additions are not integrated or verified, and do not change the readiness of the existing private Windows evaluation package."
+        },
+        {
           "title": "Separate-computer pilot evaluation remains next",
           "detail": "Use the prepared private Windows evaluation archive for a separately authorized recipient evaluation with fictional or non-confidential documents. Record actual installation and first-use results, including any physical PDF-viewer observations and participant feedback. Sending, installation and activation remain separate outcomes; no recipient handoff or public release is claimed."
         },
