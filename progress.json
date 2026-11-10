@@ -177,6 +177,10 @@
       "title": "Acceptance still open",
       "items": [
         {
+          "title": "Spreadsheet copy of recorded dates: implementation under way",
+          "detail": "Work has started on a local spreadsheet download from the Recorded ISO dates view. It keeps all matching date lines, including repeated occurrences, with source and page references, alongside the exact recorded-data JSON and an explanation of its limits. CSV text uses a reversible display encoding, and incomplete or oversized downloads are refused. Initial development checks have passed; full candidate, installed-workflow and Linux verification remain pending. Editing the downloaded copy cannot change the delivered revision. This remains a navigation aid for fictional or non-confidential pilot material, not an adjudicated event timeline or a release."
+        },
+        {
           "title": "Acceptance and recipient activation remain open",
           "detail": "The recorded technical verification and private archive preparation for the pilot-validation successor are complete within the scopes above. Same-machine automated checks do not supply physical PDF-viewer observations, participant feedback or a separate-computer result. Standing human acknowledgment records acknowledgment only. Setup remains unsigned; overall acceptance, recipient activation and public product release remain open."
         },
@@ -386,10 +390,6 @@
       "id": "next",
       "title": "Next milestones",
       "items": [
-        {
-          "title": "Proposed: spreadsheet copy of recorded dates",
-          "detail": "The next coding proposal adds a local spreadsheet download for the existing Recorded ISO dates view, with source and page references and the original recorded data alongside it. The plan preserves filters and repeated lines, handles empty results explicitly and refuses incomplete or oversized exports. Implementation and verification have not started. This is a navigation aid for fictional or non-confidential pilot material, not an adjudicated event timeline or a release."
-        },
         {
           "title": "Separate-computer pilot evaluation remains next",
           "detail": "Use the prepared private Windows evaluation archive for a separately authorized recipient evaluation with fictional or non-confidential documents. Record actual installation and first-use results, including any physical PDF-viewer observations and participant feedback. Sending, installation and activation remain separate outcomes; no recipient handoff or public release is claimed."
