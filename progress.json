@@ -391,8 +391,8 @@
       "title": "Next milestones",
       "items": [
         {
-          "title": "Planned: more spreadsheet exports and saved-copy checks",
-          "detail": "The next development tranche covers spreadsheet copies of the source inventory and selected findings, a local inspector for saved export files, and a separate offline recipient checker. The work is assigned in isolated workspaces; source-inventory contract work has started, while the other coding lanes await startup requirements. The planned exports retain recorded context and privacy choices, refuse incomplete or oversized data, and leave delivered revisions unchanged. Synthetic fixtures and integration handoffs are part of the scope. These additions are not integrated or verified, and do not change the readiness of the existing private Windows evaluation package."
+          "title": "Spreadsheet exports authored; integration and saved-copy work in progress",
+          "detail": "Spreadsheet exports for the source inventory and selected findings, and a standalone offline checker for chronology spreadsheets, have been authored. Integration into the pilot and work on a local inspector for saved exports have started; a source-inventory adapter for the standalone checker is next. Execution checks for these additions have not run; integration, acceptance and release remain open. The existing private Windows evaluation package remains available for fictional or non-confidential selectable-text PDFs, and customer use is unconfirmed. These additions are not a new pilot release."
         },
         {
           "title": "Separate-computer pilot evaluation remains next",
