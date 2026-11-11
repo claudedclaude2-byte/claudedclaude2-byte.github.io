@@ -177,6 +177,10 @@
       "title": "Acceptance still open",
       "items": [
         {
+          "title": "Saved-export inspection and download repairs in progress",
+          "detail": "Repairs are in progress so saved spreadsheet exports show the correct file labels, recorded context and matching information across the inspection page and its text and JSON downloads. The work also covers consistent refusal handling without presenting missing information as a successful result. This source work covers chronology, source inventory and both findings layouts. Checks remain NOT_RUN; final integration, acceptance and release remain open."
+        },
+        {
           "title": "Mac core and runtime integration in progress",
           "detail": "Mac core file-access and launcher/runtime source have been brought together in one development candidate. Integration is continuing across file-access contracts, package contents and operator guidance, with partial source changes still being reconciled. The spreadsheet export and saved-copy inspection work remains a separate development candidate; further compatibility work is planned. Product tests for these new changes are NOT_RUN. Mac build and installation checks, acceptance and release remain unverified, and no Mac download is available. The existing private Windows evaluation package remains separate; customer use is unconfirmed. These source changes are not a new pilot release."
         },
