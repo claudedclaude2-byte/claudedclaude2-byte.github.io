@@ -182,7 +182,7 @@
         },
         {
           "title": "Mac core and runtime integration in progress",
-          "detail": "Mac core file-access and launcher/runtime source have been brought together in one development candidate. Integration is continuing across file-access contracts, package contents and operator guidance, with partial source changes still being reconciled. The spreadsheet export and saved-copy inspection work remains a separate development candidate; further compatibility work is planned. Product tests for these new changes are NOT_RUN. Mac build and installation checks, acceptance and release remain unverified, and no Mac download is available. The existing private Windows evaluation package remains separate; customer use is unconfirmed. These source changes are not a new pilot release."
+          "detail": "Mac core file-access and launcher/runtime source have been brought together in one development candidate. Integration is continuing across file-access contracts, package contents and operator guidance. Current source repairs address runtime file locations, processor-architecture matching and executable metadata; remaining source changes and authored check coverage are still being completed. The spreadsheet export and saved-copy inspection work remains a separate development candidate; further compatibility work is planned. Product tests for these new changes are NOT_RUN. Mac build and installation checks, acceptance and release remain unverified, and no Mac download is available. The existing private Windows evaluation package remains separate; customer use is unconfirmed. These source changes are not a new pilot release."
         },
         {
           "title": "Spreadsheet copy of recorded dates: implementation under way",
