@@ -391,8 +391,8 @@
       "title": "Next milestones",
       "items": [
         {
-          "title": "Source-inventory export wired; further integration and saved-copy checks planned",
-          "detail": "The source-inventory spreadsheet download is wired in its development branch. A local inspector for saved exports remains in progress. Next planned work is to connect selected-findings exports, add source code for operator-journey and fictional-fixture checks, and extend the independent offline checker to saved findings. These overnight assignments cover source work. Testing and release checks remain incomplete; combined integration, acceptance and release remain open. The existing private Windows evaluation package remains available for fictional or non-confidential selectable-text PDFs, and customer use is unconfirmed. These additions are not a new pilot release."
+          "title": "Mac source work underway; two integration candidates planned",
+          "detail": "Mac core file-access and launcher source work is underway. Component source handoffs for spreadsheet exports and saved-export inspection are complete, with execution checks not run. The next overnight milestone is two separate integrated source candidates: the export workflow and the Mac core with its launcher. Integration is planned, not yet complete. Product tests remain NOT_RUN; Mac build, installation, acceptance and release are unverified, and no Mac download is available. The existing private Windows evaluation package remains separate; customer use is unconfirmed. These changes are not a new pilot release."
         },
         {
           "title": "Separate-computer pilot evaluation remains next",
