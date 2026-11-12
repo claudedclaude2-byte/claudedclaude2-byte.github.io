@@ -277,8 +277,8 @@
           "detail": "The integrated tracker can produce a consistent complete private backup and inspect its format and compatibility before manual recovery. Feedback, links and planning history remain private data. The backup flow does not overwrite a live tracker or upload records. Route, model and application checks passed; a sealed browser journey for these pages remains to be added."
         },
         {
-          "title": "Integrated: scanned-page work queue and transcript navigation",
-          "detail": "Matter and document queues show recorded page states, retain filters through page navigation, preserve entered fields after a refused action, link exact delivered transcript references, and offer a private selected-work summary. Focused and full-application checks passed on the combined candidate. Existing OCR and individual confirmation rules remain authoritative; the sealed browser journey for these pages is still missing."
+          "title": "Scanned-page queue integrated; stricter read bounds next",
+          "detail": "Existing matter and document queues show recorded page states, retain navigation and filter context, preserve fields after a refused action, link delivered transcript references and offer a private selected-work summary. Earlier focused and application checks belong to that combined candidate; the sealed browser journey remains missing. A new source milestone is prepared to bound actual record and cache reads, source discovery and shared waiting work, and to show incomplete or unknown coverage honestly across the queue and workspace summary. This new work has not started; tests for it are NOT_RUN. Existing OCR and individual confirmation rules remain authoritative. Acceptance and release remain open."
         },
         {
           "title": "Coded: prerequisite snapshots and comparison",
