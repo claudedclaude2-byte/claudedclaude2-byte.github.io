@@ -177,12 +177,12 @@
       "title": "Acceptance still open",
       "items": [
         {
-          "title": "Spreadsheet source integrated; consumer binding next",
-          "detail": "Spreadsheet export producers and saved-copy inspection have been brought together in a combined source snapshot. The inspection page and its text and JSON downloads now have source changes for consistent labels, recorded context and refusal handling across chronology, source inventory and both findings layouts. Next work binds these consumers to the released export contract and completes the remaining handoffs. Missing sealed input data remains unresolved. Checks are NOT_RUN; final verification, acceptance and release remain open."
+          "title": "Spreadsheet contract frozen; complete source integration next",
+          "detail": "An immutable source contract now records the chronology, source-inventory and findings export formats. The next prepared milestone covers authoring checks for connected export and download behavior, remaining saved-copy inspection and report handling, independent recipient-checker metadata handling, and the combined source handoff. This planned work has not been observed starting. Checks for these changes are NOT_RUN; missing sealed input data, final verification, acceptance and release remain open."
         },
         {
-          "title": "Mac source snapshot preserved; final repairs in progress",
-          "detail": "The Mac core and launcher/runtime source have been combined in one preserved development snapshot. Further source repairs are in progress for packaged check-script locations, path refusal and readable diagnostics. Authored check coverage and final integration are still being completed. Product tests for these changes are NOT_RUN. Mac build and installation checks, acceptance and release remain unverified, and no Mac download is available. Real Mac evidence and pinned runtime dependencies remain outstanding. The existing private Windows evaluation package is separate; these source changes are not a new pilot release."
+          "title": "Mac display repairs implemented; complete source workflow next",
+          "detail": "Source changes now make unsafe control characters visible in intake reports and two pilot-console messages; the related runtime documentation has been integrated. A broader source milestone is prepared next: remaining console and review-text presentation, recovery guidance, and Mac setup, start, check, stop and uninstall entry points. This planned work has not been observed starting. Tests for the source changes are NOT_RUN. Mac runtime artifacts, execution checks, acceptance and release remain unverified; no Mac download is available."
         },
         {
           "title": "Spreadsheet copy of recorded dates: implementation under way",
