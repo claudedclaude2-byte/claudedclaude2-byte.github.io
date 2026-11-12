@@ -181,8 +181,8 @@
           "detail": "Combined source integration is under way for chronology, source-inventory and findings exports. Saved-copy consumer changes and recipient-checker source have been handed off; their combined boundaries, packaging and authored cases are being reconciled. Follow-on checker work covers bounded report construction, report-file writes that preserve prior output on failure, and sort/filter cases tied to the producer source. Tests for these changes are NOT_RUN. Missing sealed input data, acceptance and release remain open."
         },
         {
-          "title": "Mac presentation and recovery source integration continues",
-          "detail": "Core source changes for console and review-text display, page presentation and platform-aware recovery advice are integrated into the current development branch. Interface alignment, documentation and authored cases remain in progress. Mac setup, start, check, stop and uninstall entry points remain a separate source milestone. Tests for these changes are NOT_RUN. Mac runtime artifacts, execution checks, acceptance and release remain unverified; no Mac download is available."
+          "title": "Mac core and runtime entry-point source work in progress",
+          "detail": "Core source changes for console and review-text display, page presentation and platform-aware recovery advice are integrated into the current development branch. Interface alignment, documentation and authored cases continue. The separate Mac runtime source milestone has now started, covering setup, start, check, stop, uninstall and runtime-artifact intake. Tests for these changes are NOT_RUN. Mac runtime artifacts, execution checks, acceptance and release remain unverified; no Mac download is available."
         },
         {
           "title": "Spreadsheet copy of recorded dates: implementation under way",
@@ -277,8 +277,8 @@
           "detail": "The integrated tracker can produce a consistent complete private backup and inspect its format and compatibility before manual recovery. Feedback, links and planning history remain private data. The backup flow does not overwrite a live tracker or upload records. Route, model and application checks passed; a sealed browser journey for these pages remains to be added."
         },
         {
-          "title": "Scanned-page queue integrated; stricter read bounds next",
-          "detail": "Existing matter and document queues show recorded page states, retain navigation and filter context, preserve fields after a refused action, link delivered transcript references and offer a private selected-work summary. Earlier focused and application checks belong to that combined candidate; the sealed browser journey remains missing. A new source milestone is prepared to bound actual record and cache reads, source discovery and shared waiting work, and to show incomplete or unknown coverage honestly across the queue and workspace summary. This new work has not started; tests for it are NOT_RUN. Existing OCR and individual confirmation rules remain authoritative. Acceptance and release remain open."
+          "title": "Scanned-page queue integrated; read-bounds source work in progress",
+          "detail": "Existing matter and document queues show recorded page states, retain navigation and filter context, preserve fields after a refused action, link delivered transcript references and offer a private selected-work summary. Earlier focused and application checks belong to that combined candidate; the sealed browser journey remains missing. The new read-bounds milestone has started with source analysis of actual record and cache reads, source discovery, shared waiting work and how the queue reports incomplete or unknown coverage. Implementation is not yet established at this checkpoint; tests for the new work are NOT_RUN. Existing OCR and individual confirmation rules remain authoritative. Acceptance and release remain open."
         },
         {
           "title": "Coded: prerequisite snapshots and comparison",
