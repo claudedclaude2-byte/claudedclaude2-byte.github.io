@@ -177,12 +177,12 @@
       "title": "Acceptance still open",
       "items": [
         {
-          "title": "Saved-copy integration and safer report output in progress",
-          "detail": "Combined source integration is under way for chronology, source-inventory and findings exports. Saved-copy consumer changes and recipient-checker source have been handed off; their combined boundaries, packaging and authored cases are being reconciled. Follow-on checker work covers bounded report construction, report-file writes that preserve prior output on failure, and sort/filter cases tied to the producer source. Tests for these changes are NOT_RUN. Missing sealed input data, acceptance and release remain open."
+          "title": "Saved-copy integration remains open; safer checker reports coded",
+          "detail": "Recipient-checker source now includes staged report-file writes, bounded human-readable reports and sort/filter rules tied to the producer source, with authored failure and boundary cases. Filesystem capability and path-race limitations remain explicit; JSON and HTML outputs are separate operations. The checker source has been handed off. Combined chronology, source-inventory and findings integration still needs consumer repairs, packaging declarations and final source binding. Tests for these changes are NOT_RUN. Missing sealed input data, acceptance and release remain open."
         },
         {
-          "title": "Mac core checkpoint preserved; runtime source work in progress",
-          "detail": "Core source changes for console and review-text display, page presentation and platform-aware recovery advice are integrated into a preserved development checkpoint. The core run has paused with partial interface, recovery-case and documentation work saved; final integration and source handoff remain unfinished. Separate Mac runtime source work covers setup, start, check, stop, uninstall and runtime-artifact intake, with authored files present and integration still open. Tests for these changes are NOT_RUN. Mac runtime artifacts, execution checks, acceptance and release remain unverified; no Mac download is available."
+          "title": "Mac core integration resumed; runtime source handed off",
+          "detail": "Core source integration is active again, combining recovery guidance, page presentation and readable status messages with preserved work from the earlier checkpoint. Separate Mac runtime source implements setup, start, check, stop and uninstall entry points, runtime selection and artifact intake; that source has been handed off and awaits combined integration. Recovery and wrapper details still need reconciliation before the complete source handoff. Tests for these changes are NOT_RUN. Real Mac runtime artifacts, build and installation checks, acceptance and release remain unverified; no Mac download is available."
         },
         {
           "title": "Spreadsheet copy of recorded dates: implementation under way",
@@ -277,8 +277,8 @@
           "detail": "The integrated tracker can produce a consistent complete private backup and inspect its format and compatibility before manual recovery. Feedback, links and planning history remain private data. The backup flow does not overwrite a live tracker or upload records. Route, model and application checks passed; a sealed browser journey for these pages remains to be added."
         },
         {
-          "title": "Scanned-page queue integrated; read-bounds source implementation in progress",
-          "detail": "Existing matter and document queues show recorded page states, retain navigation and filter context, preserve fields after a refused action, link delivered transcript references and offer a private selected-work summary. Earlier focused and application checks belong to that combined candidate; the sealed browser journey remains missing. The new read-bounds milestone has progressed from source analysis to implementation, with source-discovery and cached-page-read changes now being authored. Shared waiting work, request limits and honest incomplete or unknown coverage remain part of the ongoing integration. Tests for the new work are NOT_RUN. Existing OCR and individual confirmation rules remain authoritative. Acceptance and release remain open."
+          "title": "Scanned-page read-bounds source handed off; shared integration next",
+          "detail": "The earlier matter and document queues retain navigation and filter context, preserve fields after a refused action and link delivered transcript references. A new source candidate adds bounded source discovery and cached-page reads, request limits and explicit incomplete or unknown coverage. Its source handoff is ready; shared packaging declarations and matching page presentation remain to be integrated. Earlier checks belong to the earlier candidate, and the sealed browser journey remains missing. Tests for the new work are NOT_RUN. Existing OCR and individual confirmation rules remain authoritative. Acceptance and release remain open."
         },
         {
           "title": "Coded: prerequisite snapshots and comparison",
