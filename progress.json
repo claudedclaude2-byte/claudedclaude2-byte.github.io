@@ -177,12 +177,12 @@
       "title": "Acceptance still open",
       "items": [
         {
-          "title": "Spreadsheet contract frozen; complete source integration next",
-          "detail": "An immutable source contract now records the chronology, source-inventory and findings export formats. The next prepared milestone covers authoring checks for connected export and download behavior, remaining saved-copy inspection and report handling, independent recipient-checker metadata handling, and the combined source handoff. This planned work has not been observed starting. Checks for these changes are NOT_RUN; missing sealed input data, final verification, acceptance and release remain open."
+          "title": "Saved-copy source integration in progress",
+          "detail": "Source work is now in progress on saved-copy inspection and report handling across chronology, source-inventory and findings exports. The immutable producer contract is being bound to archive reading, family adapters, presentation and report handling. Authored checks, connected export and download behavior, and recipient verification still need final integration. Tests for these changes are NOT_RUN; missing sealed input data, acceptance and release remain open."
         },
         {
-          "title": "Mac display repairs implemented; complete source workflow next",
-          "detail": "Source changes now make unsafe control characters visible in intake reports and two pilot-console messages; the related runtime documentation has been integrated. A broader source milestone is prepared next: remaining console and review-text presentation, recovery guidance, and Mac setup, start, check, stop and uninstall entry points. This planned work has not been observed starting. Tests for the source changes are NOT_RUN. Mac runtime artifacts, execution checks, acceptance and release remain unverified; no Mac download is available."
+          "title": "Mac presentation and recovery source work in progress",
+          "detail": "Mac core source work is now in progress. Preserved console and review-text patches are being integrated, with authored checks and remaining presentation and recovery work being reconciled. Mac setup, start, check, stop and uninstall entry points remain a separate source milestone. Tests for these changes are NOT_RUN. Mac runtime artifacts, execution checks, acceptance and release remain unverified; no Mac download is available."
         },
         {
           "title": "Spreadsheet copy of recorded dates: implementation under way",
