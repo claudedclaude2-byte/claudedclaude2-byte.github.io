@@ -177,12 +177,12 @@
       "title": "Acceptance still open",
       "items": [
         {
-          "title": "Saved-copy integration remains open; safer checker reports coded",
-          "detail": "Recipient-checker source now includes staged report-file writes, bounded human-readable reports and sort/filter rules tied to the producer source, with authored failure and boundary cases. Filesystem capability and path-race limitations remain explicit; JSON and HTML outputs are separate operations. The checker source has been handed off. Combined chronology, source-inventory and findings integration still needs consumer repairs, packaging declarations and final source binding. Tests for these changes are NOT_RUN. Missing sealed input data, acceptance and release remain open."
+          "title": "Saved-copy consumer repairs and report-publication source handed off",
+          "detail": "Source-inventory consumer code now accepts the required rows field, distinguishes malformed saved copies from unsupported families and separates file-size refusal from the upload-body limit. Recipient-checker report source now requires an atomic create-only publication primitive by default, labels the optional non-atomic mode and reports durability, cleanup and partial publication explicitly. Both source handoffs are ready; combined export integration and final candidate binding remain open. Platform and path-race limitations remain explicit. Tests for these changes are NOT_RUN. Missing sealed input data, acceptance and release remain open."
         },
         {
-          "title": "Mac core integration resumed; runtime source handed off",
-          "detail": "Core source integration is active again, combining recovery guidance, page presentation and readable status messages with preserved work from the earlier checkpoint. Separate Mac runtime source implements setup, start, check, stop and uninstall entry points, runtime selection and artifact intake; that source has been handed off and awaits combined integration. Recovery and wrapper details still need reconciliation before the complete source handoff. Tests for these changes are NOT_RUN. Real Mac runtime artifacts, build and installation checks, acceptance and release remain unverified; no Mac download is available."
+          "title": "Mac runtime source integrated; recovery closure in progress",
+          "detail": "Mac setup, start, check, stop and uninstall source has been merged into the core development candidate, together with recovered-copy entry points and guidance. Current source work is reconciling recovery wording, permission-sensitive cases, declarations and the complete handoff. Tests for these changes are NOT_RUN. Real Mac runtime artifacts, build and installation checks, acceptance and release remain unverified; no Mac download is available."
         },
         {
           "title": "Spreadsheet copy of recorded dates: implementation under way",
@@ -277,8 +277,8 @@
           "detail": "The integrated tracker can produce a consistent complete private backup and inspect its format and compatibility before manual recovery. Feedback, links and planning history remain private data. The backup flow does not overwrite a live tracker or upload records. Route, model and application checks passed; a sealed browser journey for these pages remains to be added."
         },
         {
-          "title": "Scanned-page read-bounds source handed off; shared integration next",
-          "detail": "The earlier matter and document queues retain navigation and filter context, preserve fields after a refused action and link delivered transcript references. A new source candidate adds bounded source discovery and cached-page reads, request limits and explicit incomplete or unknown coverage. Its source handoff is ready; shared packaging declarations and matching page presentation remain to be integrated. Earlier checks belong to the earlier candidate, and the sealed browser journey remains missing. Tests for the new work are NOT_RUN. Existing OCR and individual confirmation rules remain authoritative. Acceptance and release remain open."
+          "title": "Scanned-page read bounds and matching page presentation coded",
+          "detail": "Source for bounded discovery and cached-page reads has been handed off, and matching page presentation is now coded in the core candidate. The pages describe incomplete or unknown coverage while retaining navigation context and delivered transcript references. The final combined candidate still needs shared integration and packaging declarations. Earlier checks belong to the earlier candidate, and the sealed browser journey remains missing. Tests for this new source are NOT_RUN. Existing OCR and individual confirmation rules remain authoritative. Acceptance and release remain open."
         },
         {
           "title": "Coded: prerequisite snapshots and comparison",
