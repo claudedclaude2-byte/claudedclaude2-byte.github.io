@@ -277,8 +277,8 @@
           "detail": "The integrated tracker can produce a consistent complete private backup and inspect its format and compatibility before manual recovery. Feedback, links and planning history remain private data. The backup flow does not overwrite a live tracker or upload records. Route, model and application checks passed; a sealed browser journey for these pages remains to be added."
         },
         {
-          "title": "Scanned-page source handoffs ready; combined recovery work next",
-          "detail": "Bounded discovery and cached-page reading source, matching incomplete-coverage pages and damaged-record refusals have been handed off. Shared integration and packaging declarations still need to be completed in one candidate. Planned next: offer a supported transcription or recognition path when a PDF text layer contains characters that cannot be stored, and keep queue and workboard coverage truthful after that change. That recovery path is not implemented yet. Existing OCR and individual confirmation rules remain authoritative. Tests for these changes are NOT_RUN; the sealed browser journey, acceptance and release remain open."
+          "title": "Scanned-page source handoffs ready; recovery follow-up underway",
+          "detail": "Bounded discovery and cached-page reading source, matching incomplete-coverage pages and damaged-record refusals have been handed off. Shared integration and packaging declarations still need to be completed in one candidate. Source work has started on a supported transcription or recognition path when a PDF text layer contains characters that cannot be stored, with truthful queue and workboard coverage after that change. That recovery path is not implemented yet. Existing OCR and individual confirmation rules remain authoritative. Tests for these changes are NOT_RUN; the sealed browser journey, acceptance and release remain open."
         },
         {
           "title": "Coded: prerequisite snapshots and comparison",
