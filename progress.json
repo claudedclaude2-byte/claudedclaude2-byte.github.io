@@ -182,7 +182,7 @@
         },
         {
           "title": "Mac source handoff finished; execution remains unverified",
-          "detail": "Source implemented, not yet run: unusual or invisible characters in names and typed text are written out visibly on the pilot pages and in status output. Damaged scanned-page records and text that cannot be stored now receive explicit refusals or guidance. Mac start, stop, status and remove commands, recovered-copy entry points and custom-port discovery have been combined with the shared core source and handed off. Next source work covers remaining recovery guidance, uninstall checks for custom ports and cross-platform refusal handling. Tests for this candidate are NOT_RUN. Mac runtime inputs, packaging, a run on real Mac hardware, acceptance and release remain open; no Mac download is available."
+          "detail": "Source implemented, not yet run: unusual or invisible characters in names and typed text are written out visibly on the pilot pages and in status output. Damaged scanned-page records and text that cannot be stored now receive explicit refusals or guidance. Mac start, stop, status and remove commands, recovered-copy entry points and custom-port discovery have been combined with the shared core source and handed off. Follow-on source work is underway on recovery guidance and cross-platform refusal handling. The uninstaller source now checks for a running pilot on a custom port before removal; integration and execution checks remain open. Tests for this candidate are NOT_RUN. Mac runtime inputs, packaging, a run on real Mac hardware, acceptance and release remain open; no Mac download is available."
         },
         {
           "title": "Spreadsheet copy of recorded dates: implementation under way",
