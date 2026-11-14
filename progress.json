@@ -177,12 +177,12 @@
       "title": "Acceptance still open",
       "items": [
         {
-          "title": "Saved-copy consumer repairs and report-publication source handed off",
-          "detail": "Source-inventory consumer code now accepts the required rows field, distinguishes malformed saved copies from unsupported families and separates file-size refusal from the upload-body limit. Recipient-checker report source now requires an atomic create-only publication primitive by default, labels the optional non-atomic mode and reports durability, cleanup and partial publication explicitly. Both source handoffs are ready; combined export integration and final candidate binding remain open. Platform and path-race limitations remain explicit. Tests for these changes are NOT_RUN. Missing sealed input data, acceptance and release remain open."
+          "title": "Saved-export privacy and report cleanup planned",
+          "detail": "The earlier saved-export consumer and report-publication source repairs have been handed off. Next: keep original source-cell text out of default disagreement summaries, bound archive-name diagnostics, and preserve uncertain temporary files when report cleanup cannot prove ownership. Exact disagreement decisions and byte-identity checks must remain unchanged. New source implementation and combined integration are pending; tests remain NOT_RUN. Missing sealed input data, acceptance and release remain open."
         },
         {
-          "title": "Mac source integration and clearer refusal messages",
-          "detail": "Source changes for choosing a private Mac data folder and rejecting unusable text before partial outputs are written have been handed off. Work has started on combining them with the existing launcher and recovery changes, clearer refusal messages and saved-export input handling. The combined source still needs the remaining case updates and package declarations. Tests and Mac execution remain NOT_RUN; runtime artifacts, acceptance and release remain open. No Mac download is available."
+          "title": "Mac source integration under way; recovery improvements next",
+          "detail": "Work has started on combining the released Mac data-folder selection, guide correction, backup advice and package-declaration source. Next: make recovery commands retain the chosen data folder, bound the recovery list before reading the full directory, and bound package verification reads. These are source changes for the existing pilot. Tests and Mac execution remain NOT_RUN; runtime artifacts, acceptance and release remain open. No Mac download is available."
         },
         {
           "title": "Spreadsheet copy of recorded dates: implementation under way",
