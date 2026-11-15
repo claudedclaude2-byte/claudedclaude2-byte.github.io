@@ -177,12 +177,12 @@
       "title": "Acceptance still open",
       "items": [
         {
-          "title": "Saved-export privacy and cleanup source completed; diagnostics being corrected",
-          "detail": "Source changes omit original source-cell text from default disagreement summaries and preserve temporary report files when ownership is uncertain. Archive-name diagnostic corrections are in progress; combined integration remains open. The required disagreement and byte-identity contracts are unchanged. Tests remain NOT_RUN; sealed input data, acceptance and release remain open."
+          "title": "Saved-export diagnostics corrected and integrated",
+          "detail": "Source changes omit original source-cell text from default disagreement summaries and bound unsupported-archive diagnostics, including control characters and path-like names. The diagnostic correction is now integrated into the combined source. Separate report-cleanup source preserves temporary files when ownership is uncertain. The required disagreement and byte-identity contracts are unchanged. Tests remain NOT_RUN; sealed input data, acceptance and release remain open."
         },
         {
-          "title": "Mac recovery source completed; integration continues",
-          "detail": "Source implementation is complete for retaining the selected data folder in recovery commands, passing and checking that context across the recovery pages, and bounding recovered-copy directory scans. Earlier guide and backup-advice corrections have been integrated. Combined integration and package-read work remain open. Tests and Mac execution remain NOT_RUN; runtime artifacts, acceptance and release remain open. No Mac download is available."
+          "title": "Mac recovery source integrated; package verifier in progress",
+          "detail": "Source changes for retaining the selected data folder in recovery commands, checking that context across the recovery pages, and bounding recovered-copy directory scans are now integrated with the guide and backup-advice corrections. Work is in progress on bounded Mac package verification and final package declarations. Tests and Mac execution remain NOT_RUN; runtime artifacts, acceptance and release remain open. No Mac download is available."
         },
         {
           "title": "Spreadsheet copy of recorded dates: implementation under way",
