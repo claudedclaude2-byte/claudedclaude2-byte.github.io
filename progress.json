@@ -181,8 +181,8 @@
           "detail": "Source changes omit original source-cell text from default disagreement summaries and bound unsupported-archive diagnostics, including control characters and path-like names. The diagnostic correction is now integrated into the combined source. Separate report-cleanup source preserves temporary files when ownership is uncertain. The required disagreement and byte-identity contracts are unchanged. Tests remain NOT_RUN; sealed input data, acceptance and release remain open."
         },
         {
-          "title": "Mac pilot source integration and provenance work in progress",
-          "detail": "Runtime notice files, timeout handling, saved check results and browser network-observation coverage have been brought together in the Apple Silicon source candidate. Upstream provenance evidence has been collected, while runtime-component linkage remains unresolved. Further source refinement is in progress. Mac CI has not run, and candidate-specific execution checks, native Mac acceptance and release remain open. The pilot targets 22 November 2026, subject to those checks and remaining fixes. No Mac download is available."
+          "title": "First Apple Silicon CI reached packaging; repairs in progress",
+          "detail": "The first hosted Apple Silicon CI run used macOS 15.8.2 and fetched the pinned runtime and wheels successfully. Packaging stopped on filename portability, references to files missing from the package, and manifest selection and notice integration gaps. Repairs are in progress. Packaging must be rerun; acceptance checks and native Mac acceptance remain pending. The pilot is not ready. The target remains 22 November 2026, subject to those checks and remaining fixes. No Mac download is available."
         },
         {
           "title": "Spreadsheet copy of recorded dates: implementation under way",
