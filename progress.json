@@ -181,6 +181,10 @@
       "title": "Acceptance still open",
       "items": [
         {
+          "title": "Costs review across revised records",
+          "detail": "Implementation is underway on a private workflow for saving follow-ups linked to source pages and resuming them after a restart. The follow-up store and finding controls are being integrated. The full journey across three deliveries and verification of the installed app remain open."
+        },
+        {
           "title": "Saved-export diagnostics corrected and integrated",
           "detail": "Source changes omit original source-cell text from default disagreement summaries and bound unsupported-archive diagnostics, including control characters and path-like names. The diagnostic correction is now integrated into the combined source. Separate report-cleanup source preserves temporary files when ownership is uncertain. The required disagreement and byte-identity contracts are unchanged. Tests remain NOT_RUN; sealed input data, acceptance and release remain open."
         },
@@ -406,10 +410,6 @@
       "id": "next",
       "title": "Next milestones",
       "items": [
-        {
-          "title": "Costs review across revised records",
-          "detail": "Plan a private review workflow that lets a costs reviewer save follow-ups linked to source pages, resume the review after a restart, and compare findings when corrected records arrive."
-        },
         {
           "title": "Separate-computer pilot evaluation remains next",
           "detail": "Use the prepared private Windows evaluation archive for a separately authorized recipient evaluation with fictional or non-confidential documents. Record actual installation and first-use results, including any physical PDF-viewer observations and participant feedback. Sending, installation and activation remain separate outcomes; no recipient handoff or public release is claimed."
