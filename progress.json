@@ -407,6 +407,10 @@
       "title": "Next milestones",
       "items": [
         {
+          "title": "Costs review across revised records",
+          "detail": "Plan a private review workflow that lets a costs reviewer save follow-ups linked to source pages, resume the review after a restart, and compare findings when corrected records arrive."
+        },
+        {
           "title": "Separate-computer pilot evaluation remains next",
           "detail": "Use the prepared private Windows evaluation archive for a separately authorized recipient evaluation with fictional or non-confidential documents. Record actual installation and first-use results, including any physical PDF-viewer observations and participant feedback. Sending, installation and activation remain separate outcomes; no recipient handoff or public release is claimed."
         },
