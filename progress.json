@@ -181,8 +181,12 @@
       "title": "Acceptance still open",
       "items": [
         {
-          "title": "In progress: Costs-review integration",
-          "detail": "The comparison and follow-up changes are now being integrated with package-preflight work in one private candidate. Work covers normal comparison navigation, preserving original source links for follow-ups and including the required files in the runtime package. Checks of the combined candidate and its installed workflow remain pending. Earlier development results apply only to the versions checked."
+          "title": "Costs-review integration in place",
+          "detail": "The private candidate brings the costs comparison and follow-up workflows together. From a comparison of two deliveries, reviewers can reconcile follow-ups or carry them into the next check. New follow-ups link back to their original finding. Focused source checks still show three failures that also occurred on the baseline."
+        },
+        {
+          "title": "Windows installed-package check passed",
+          "detail": "The exact package was set up and moved to a different folder on one Windows computer. The fictional costs-review follow-up checks passed from the relocated install, including after restart."
         },
         {
           "title": "Saved-export diagnostics corrected and integrated",
@@ -411,8 +415,8 @@
       "title": "Next milestones",
       "items": [
         {
-          "title": "Installed costs-review workflow checks",
-          "detail": "After integration is complete, check the exact packaged files and exercise the fictional review workflow from an installed copy, including source-page links, explicit follow-up updates, restart persistence and separation between matters. These checks have not run on the new candidate. Acceptance, delivery and release remain open."
+          "title": "Broader costs-review validation",
+          "detail": "Run the full source suite and validate the costs-review candidate on other platforms and in continuous integration. Customer acceptance and product release remain open."
         },
         {
           "title": "Separate-computer pilot evaluation remains next",
