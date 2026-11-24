@@ -182,7 +182,7 @@
       "items": [
         {
           "title": "Costs-review integration in place",
-          "detail": "The private candidate brings the costs comparison and follow-up workflows together. From a comparison of two deliveries, reviewers can reconcile follow-ups or carry them into the next check. New follow-ups link back to their original finding. Focused source checks still show three failures that also occurred on the baseline. The full Windows regression suite is running on this candidate. Results are pending."
+          "detail": "The private candidate brings the costs comparison and follow-up workflows together. From a comparison of two deliveries, reviewers can reconcile follow-ups or carry them into the next check. New follow-ups link back to their original finding. Focused source checks still show three failures that also occurred on the baseline. The full Windows source regression ran on this candidate and reported 27 failures that require triage."
         },
         {
           "title": "Windows installed-package check passed",
